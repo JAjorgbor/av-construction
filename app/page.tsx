@@ -110,11 +110,11 @@ export default function Home() {
               inventore, ipsum impedit id quas ex incidunt optio.
             </p>
           </div>
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto md:scrollbar-hide">
             <div className="flex gap-4 min-w-max py-4">
               <div>
                 <Image
-                  className="object-cover w-full"
+                  className="object-cover w-[200px]"
                   src="https://dummyimage.com/200x300"
                   alt="project"
                   width={200}
@@ -177,30 +177,6 @@ export default function Home() {
           <TestimonialsSection />
         </div>
       </Container>
-
-      <div className="bg-secondary my-10 relative py-16 text-white">
-        <div className="polygon bg-white h-12 w-56  absolute -bottom-1 right-0" />
-        <Container>
-          <div className="flex flex-col gap-5 md:flex-row">
-            <div className="flex-1 space-y-3">
-              <h3 className="font-bold text-4xl">
-                Do you have a building project in mind?
-              </h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
-                eligendi aliquid reiciendis mollitia nostrum quaerat, quae ipsam
-                at a soluta.
-              </p>
-            </div>
-            <div className="flex-1 flex gap-3 items-center md:justify-end">
-              <Button variant="ghost" className="!text-white">
-                Get a Quote
-              </Button>
-              <Button>Call Us</Button>
-            </div>
-          </div>
-        </Container>
-      </div>
     </>
   );
 }

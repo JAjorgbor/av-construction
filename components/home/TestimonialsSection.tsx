@@ -12,11 +12,11 @@ const TestimonialsSection = () => {
 
   useEffect(() => {
     if (containerRef.current) {
-      setParentWidth(containerRef.current.offsetWidth);
+      setParentWidth(containerRef.current.offsetWidth + 20);
     }
     const handleResize = () => {
       if (containerRef.current) {
-        setParentWidth(containerRef.current.offsetWidth);
+        setParentWidth(containerRef.current.offsetWidth + 20);
       }
     };
     window.addEventListener("resize", handleResize);
@@ -101,13 +101,13 @@ const TestimonialsSection = () => {
                     setCarouselIndex(carouselIndex + 1); // Swiped right
                   }
                 }}
-                className="relative"
+                className="relative w-[80vw] sm:max-w-sm"
                 ref={containerRef}
                 // style={{ width: parentWidth }}
                 key={index}
               >
                 {/* shape and images */}
-                <div className="w-[400px] p-5 shadow-lg space-y-3">
+                <div className=" p-5 shadow-lg space-y-3">
                   <p className="font-bold text-2xl">Title</p>
                   <p className="text-foreground">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -132,7 +132,7 @@ const TestimonialsSection = () => {
             ))}
           </motion.div>
           {/* If we need navigation buttons */}
-          <div className="absolute bottom-0 md:-bottom-10 left-1/2 space-x-3  md:block">
+          <div className="absolute bottom-0 md:-bottom-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 space-x-3  md:block">
             <button
               type="button"
               onClick={() =>
