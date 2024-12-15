@@ -4,11 +4,11 @@ import Container from "@/components/elements/Container";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { screens } from "@/libraries/screens";
 import { motion } from "framer-motion";
-import { Turn as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -133,7 +133,9 @@ const MobileMenu = ({}) => {
         onClick={() => setIsOpen(!isOpen)}
         className="text-white hover:text-primary lg:hidden"
       >
-        <Hamburger toggled={isOpen} toggle={setIsOpen} size={25} />
+        <button onClick={() => setIsOpen(!isOpen)}>
+          {!isOpen ? <FiMenu size={25} /> : <FiX size={25} />}
+        </button>
       </div>
       {hydrated &&
         createPortal(
