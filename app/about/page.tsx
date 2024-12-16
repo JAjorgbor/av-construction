@@ -1,7 +1,8 @@
 import BreadCrumbs from "@/components/elements/Breadcrumbs";
 import Container from "@/components/elements/Container";
 import Image from "next/image";
-import { FiEye, FiTarget } from "react-icons/fi";
+import { FiEye } from "react-icons/fi";
+import { GiTargetArrows } from "react-icons/gi";
 
 export default function AboutPage() {
   return (
@@ -11,7 +12,7 @@ export default function AboutPage() {
         links={[{ label: "About", href: "/about" }]}
       />
       <Container className="space-y-5">
-        <div className="space-y-2 text-center">
+        <div className="flex flex-col items-center gap-3  text-center">
           <h3 className="text-center flex gap-3 flex-wrap justify-center items-end font-bold text-3xl text-primary">
             About{" "}
             <span className="text-5xl bg-[url(https://dummyimage.com/200x100)] bg-center bg-clip-text text-transparent font-extrabold bg-cover">
@@ -19,6 +20,16 @@ export default function AboutPage() {
             </span>
           </h3>
           <p className="text-primary">Established since 2017</p>
+          <div className="flex gap-3 ">
+            <div className="space-y-3">
+              <span className="block text-5xl text-primary">888+</span>
+              <span>Projects Completed</span>
+            </div>
+            <div className="space-y-3">
+              <span className="block text-5xl text-primary">786+</span>
+              <span>Projects Completed</span>
+            </div>
+          </div>
         </div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
@@ -54,7 +65,7 @@ export default function AboutPage() {
               <h3 className="text-2xl text-primary text-center">Mission</h3>
               <div className="flex gap-3 items-start">
                 <span>
-                  <FiTarget className="text-primary" size={100} />
+                  <GiTargetArrows className="text-primary" size={100} />
                 </span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem quaerat alias explicabo enim, optio, odio
