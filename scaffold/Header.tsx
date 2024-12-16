@@ -33,22 +33,22 @@ const Header = () => {
           <span>Logo</span>
           <ul className="hidden md:flex items-center gap-4">
             <li>
-              <Link href="#" className="w-full inline-block h-full">
+              <Link href="/" className="w-full inline-block h-full">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#" className="w-full inline-block h-full">
+              <Link href="/about" className="w-full inline-block h-full">
                 About
               </Link>
             </li>
             <li>
-              <Link href="#" className="w-full inline-block h-full">
+              <Link href="/services" className="w-full inline-block h-full">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="#" className="w-full inline-block h-full">
+              <Link href="/projects" className="w-full inline-block h-full">
                 Projects
               </Link>
             </li>
