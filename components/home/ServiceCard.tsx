@@ -9,7 +9,7 @@ interface ServiceCardProps {
 const ServiceCard: FC<ServiceCardProps> = ({ icon, title, children }) => {
   return (
     <div className="p-6 space-y-5 transition-colors group hover:text-white shadow-lg hover:bg-primary duration-500">
-      <span className="text-5xl text-primary group-hover:text-white">
+      <span className="text-6xl text-primary group-hover:text-white">
         {icon}
       </span>
       <h3 className="text-2xl font-bold uppercase">{title}</h3>

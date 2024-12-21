@@ -4,7 +4,9 @@ import Title from "@/components/elements/Title";
 import ServiceCard from "@/components/home/ServiceCard";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import Image from "next/image";
-import { PiBlueprint } from "react-icons/pi";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { IoBarChartOutline } from "react-icons/io5";
+import { MdOutlineDesignServices } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -79,17 +81,23 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-5">
-          <ServiceCard icon={<PiBlueprint />} title="Project Planning">
+          <ServiceCard
+            icon={<AiOutlineFundProjectionScreen />}
+            title="Project Planning"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             consequatur voluptas sapiente. Saepe debitis illo, placeat
             exercitationem sequi quam neque!
           </ServiceCard>
-          <ServiceCard icon={<PiBlueprint />} title="Interior Design">
+          <ServiceCard
+            icon={<MdOutlineDesignServices />}
+            title="Interior Design"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             consequatur voluptas sapiente. Saepe debitis illo, placeat
             exercitationem sequi quam neque!
           </ServiceCard>
-          <ServiceCard icon={<PiBlueprint />} title="Budget Planning">
+          <ServiceCard icon={<IoBarChartOutline />} title="Budget Planning">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             consequatur voluptas sapiente. Saepe debitis illo, placeat
             exercitationem sequi quam neque!
