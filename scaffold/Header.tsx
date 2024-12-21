@@ -11,6 +11,8 @@ import { createPortal } from "react-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Header = () => {
+  const pathname = usePathname();
+
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -33,22 +35,42 @@ const Header = () => {
           <span>Logo</span>
           <ul className="hidden md:flex items-center gap-4">
             <li>
-              <Link href="/" className="w-full inline-block h-full">
+              <Link
+                href="/"
+                className={`w-full inline-block h-full ${
+                  pathname == "/" ? "font-bold text-primary" : ""
+                }`}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className="w-full inline-block h-full">
+              <Link
+                href="/about"
+                className={`w-full inline-block h-full ${
+                  pathname == "/about" ? "font-bold text-primary" : ""
+                }`}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link href="/services" className="w-full inline-block h-full">
+              <Link
+                href="/services"
+                className={`w-full inline-block h-full ${
+                  pathname == "/services" ? "font-bold text-primary" : ""
+                }`}
+              >
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/projects" className="w-full inline-block h-full">
+              <Link
+                href="/projects"
+                className={`w-full inline-block h-full ${
+                  pathname == "/projects" ? "font-bold text-primary" : ""
+                }`}
+              >
                 Projects
               </Link>
             </li>
