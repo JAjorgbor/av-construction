@@ -131,7 +131,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="object-cover w-full"
+                  className="object-cover w-[200px]"
                   src="https://dummyimage.com/200x300"
                   alt="project"
                   width={200}
@@ -140,7 +140,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="object-cover w-full"
+                  className="object-cover w-[200px]"
                   src="https://dummyimage.com/200x300"
                   alt="project"
                   width={200}
@@ -149,7 +149,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="object-cover w-full"
+                  className="object-cover w-[200px]"
                   src="https://dummyimage.com/200x300"
                   alt="project"
                   width={200}
@@ -158,7 +158,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="object-cover w-full"
+                  className="object-cover w-[200px]"
                   src="https://dummyimage.com/200x300"
                   alt="project"
                   width={200}
@@ -167,7 +167,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  className="object-cover w-full"
+                  className="object-cover w-[200px]"
                   src="https://dummyimage.com/200x300"
                   alt="project"
                   width={200}

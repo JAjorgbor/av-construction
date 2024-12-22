@@ -332,7 +332,7 @@ const InputField: FC<InputFieldProps> = ({
   return (
     <div className={`space-y-1 group ${className}`}>
       <label
-        className={`relative space-y-1 text-sm font-medium text-primary ${
+        className={`relative space-y-1 text-sm font-medium ${
           type == "radio" || renderLabelRight ? "flex items-center gap-1" : ""
         }`}
       >
