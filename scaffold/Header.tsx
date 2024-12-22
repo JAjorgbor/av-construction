@@ -176,7 +176,12 @@ const MobileMenu = ({}) => {
                     variants={itemVariants}
                     className="text-white text-xl"
                   >
-                    <Link className="hover:text-primary w-full" href="/">
+                    <Link
+                      className={`${
+                        pathname == "/" ? "font-bold text-primary" : ""
+                      } hover:text-primary w-full`}
+                      href="/"
+                    >
                       Home
                     </Link>
                   </motion.li>
@@ -184,7 +189,12 @@ const MobileMenu = ({}) => {
                     variants={itemVariants}
                     className="text-white text-xl"
                   >
-                    <Link className="hover:text-primary w-full" href="/about">
+                    <Link
+                      className={`${
+                        pathname == "/about" ? "font-bold text-primary" : ""
+                      } hover:text-primary w-full`}
+                      href="/about"
+                    >
                       About
                     </Link>
                   </motion.li>
@@ -192,8 +202,13 @@ const MobileMenu = ({}) => {
                     variants={itemVariants}
                     className="text-white text-xl"
                   >
-                    <Link className="hover:text-primary w-full" href="/resume">
-                      Resume
+                    <Link
+                      className={`${
+                        pathname == "/services" ? "font-bold text-primary" : ""
+                      } hover:text-primary w-full`}
+                      href="/services"
+                    >
+                      Services
                     </Link>
                   </motion.li>
                   <motion.li
@@ -201,18 +216,12 @@ const MobileMenu = ({}) => {
                     className="text-white text-xl"
                   >
                     <Link
-                      className="hover:text-primary w-full"
+                      className={`${
+                        pathname == "/projects" ? "font-bold text-primary" : ""
+                      } hover:text-primary w-full`}
                       href="/projects"
                     >
                       Projects
-                    </Link>
-                  </motion.li>
-                  <motion.li
-                    variants={itemVariants}
-                    className="text-white text-xl"
-                  >
-                    <Link className="hover:text-primary w-full" href="/contact">
-                      Contact
                     </Link>
                   </motion.li>
                 </motion.ul>
