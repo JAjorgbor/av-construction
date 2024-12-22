@@ -76,10 +76,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex items-center gap-5">
-            <Button>Contact Us</Button>
-            {/* <button className="text-white hover:text-primary">
-              <FiMenu size={25} />
-            </button> */}
+            <Button href="/contact">Contact Us</Button>
             <MobileMenu />
           </div>
         </nav>
