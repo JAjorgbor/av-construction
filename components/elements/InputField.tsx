@@ -75,7 +75,7 @@ const InputField: FC<InputFieldProps> = ({
   const inputRef = useRef<HTMLInputElement>(null);
   const [showPassword, setShowPassword] = useState(false);
 
-  const baseClass = `font-light w-full leading-7 placeholder:opacity-100 placeholder:text-body border  border-opacity-60 rounded-lg p-4  focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] ${
+  const baseClass = `font-light w-full leading-7 placeholder:opacity-100 placeholder:text-body border  border-opacity-60  p-4  focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] ${
     !!errorMessage ? " border-red-400" : "border-secondary focus:border-primary"
   } `;
 
@@ -342,8 +342,8 @@ const InputField: FC<InputFieldProps> = ({
           </p>
         ) : (
           <p
-            className={`group-focused:text-yellow-500 text-primary ${
-              errorMessage ? "text-red-400" : "text-gray-300"
+            className={`group-focused:text-yellow-500  ${
+              errorMessage ? "text-red-400" : "text-primary"
             } '`}
           >
             <span className="">{label}</span>
