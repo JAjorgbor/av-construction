@@ -11,7 +11,7 @@ import { MdOutlineDesignServices } from "react-icons/md";
 export default function Home() {
   return (
     <>
-      <section className="min-h-[50vh] bg-cover bg-center bg-[url(https://dummyimage.com/800x500)]  text-white py-20 relative z-0">
+      <section className="min-h-[50vh] bg-cover bg-[position:420%_center] bg-[url(/media/hero-image.png)]  text-white py-20 relative z-0">
         <div className="h-full w-full bg-gradient-to-r from-black from-30% via-black/80 via-70%  to-black/30 absolute top-0 left-0 -z-10" />
         <Container className="z-20">
           <div className="md:w-1/2 space-y-5">
@@ -33,11 +33,11 @@ export default function Home() {
       </section>
       <Container className="grid md:grid-cols-2 lg:grid-cols-3 my-16 gap-5 items-center">
         <Image
-          src="https://dummyimage.com/800x600"
+          src="/media/home-image-1.jpg"
           alt="image"
           width={800}
           height={600}
-          className="lg:col-span-2"
+          className="lg:col-span-2 object-cover"
         />
         <div className="space-y-5">
           <Title>About Us</Title>

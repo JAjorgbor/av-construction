@@ -51,15 +51,6 @@ export default function AboutPage() {
           saepe voluptatem nihil dolorem quibusdam, vitae earum autem?
         </div>
         <div className="flex flex-col md:flex-row gap-5">
-          <div className="flex-1">
-            <Image
-              src="https://dummyimage.com/600x400"
-              alt="about image"
-              width={600}
-              height={400}
-              className="object-cover w-full"
-            />
-          </div>
           <div className="flex-1 space-y-5">
             <div className=" space-y-3">
               <h3 className="text-2xl text-primary text-center">Mission</h3>
@@ -89,6 +80,15 @@ export default function AboutPage() {
                 Repudiandae a mollitia ex ipsa.
               </div>
             </div>
+          </div>
+          <div className="flex-1 order-1 md:order-none">
+            <Image
+              src="/media/about-image.jpg"
+              alt="about image"
+              width={600}
+              height={400}
+              className="object-cover w-full"
+            />
           </div>
         </div>
       </Container>
