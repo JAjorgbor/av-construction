@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="flex flex-col items-center gap-3  text-center">
           <h3 className="text-center flex gap-3 flex-wrap justify-center items-end font-bold text-3xl text-primary">
             About{" "}
-            <span className="text-5xl bg-[url(https://dummyimage.com/200x100)] bg-center bg-clip-text text-transparent font-extrabold bg-cover">
+            <span className="text-5xl md:text-6xl bg-[url(/media/text-fill-image.jpg)] bg-center bg-clip-text text-transparent font-extrabold bg-cover">
               AV Construction
             </span>
           </h3>
@@ -81,7 +81,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <div className="flex-1 order-1 md:order-none">
+          <div className="flex-1 -order-1 md:order-none">
             <Image
               src="/media/about-image.jpg"
               alt="about image"

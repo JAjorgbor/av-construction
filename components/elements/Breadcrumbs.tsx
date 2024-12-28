@@ -11,7 +11,7 @@ interface BreadCrumbsProps {
 const BreadCrumbs: FC<BreadCrumbsProps> = ({ title, links }) => {
   return (
     <div className="h-[350px] bg-[url(/media/breadcrumb-default-background.jpg)] bg-cover bg-center relative flex items-center ">
-      <div className="absolute inset-0 w-full h-full z-0 bg-black/30" />
+      <div className="absolute inset-0 w-full h-full z-0 bg-black/40" />
       <Container className="space-y-3 z-10  w-full text-white">
         <h1 className="text-3xl font-bold">{title}</h1>
         <div className="flex items-center gap-1">

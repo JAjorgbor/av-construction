@@ -20,7 +20,7 @@ export default function ServicesPage() {
         <div className="space-y-12">
           <div className="flex gap-4 flex-col md:flex-row items-center">
             <Image
-              src="https://dummyimage.com/600x300"
+              src="/media/project-planning.jpg"
               alt="service"
               className="object-cover flex-1"
               width={400}
@@ -45,7 +45,7 @@ export default function ServicesPage() {
           </div>
           <div className="flex gap-4 flex-col md:flex-row items-center">
             <div className="flex-1 space-y-5 order-2 md:order-none">
-              <Title>Interrior Design</Title>
+              <Title>Interior Design</Title>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequuntur quae doloribus, vero eum tenetur repellendus quia
@@ -62,7 +62,7 @@ export default function ServicesPage() {
             </div>
 
             <Image
-              src="https://dummyimage.com/600x300"
+              src="/media/interior-design.jpg"
               alt="service"
               className="object-cover flex-1"
               width={400}
@@ -71,7 +71,7 @@ export default function ServicesPage() {
           </div>
           <div className="flex gap-4 flex-col md:flex-row items-center">
             <Image
-              src="https://dummyimage.com/600x300"
+              src="/media/budget-planning.jpg"
               alt="service"
               className="object-cover flex-1"
               width={400}

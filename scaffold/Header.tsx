@@ -31,7 +31,7 @@ const Header = () => {
       } fixed w-full top-0 text-white z-30 transition-colors duration-500`}
     >
       <Container className="">
-        <nav className="flex gap-3 justify-between">
+        <nav className="flex gap-3 justify-between items-center">
           <span>Logo</span>
           <ul className="hidden md:flex items-center gap-4">
             <li>
