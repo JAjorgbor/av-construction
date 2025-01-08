@@ -16,9 +16,7 @@ const Footer = () => {
                 Do you have a building project in mind?
               </h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
-                eligendi aliquid reiciendis mollitia nostrum quaerat, quae ipsam
-                at a soluta.
+           AV-Construction is here to help make your plans a reality. Whether you’re considering a new home, a renovation, or a commercial build, reach out to AV-Construction. Share your ideas with us, and we’ll work with you to bring them to life with care and precision.
               </p>
             </div>
             <div className="flex-1 flex gap-3 items-center md:justify-end">
