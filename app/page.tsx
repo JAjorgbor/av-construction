@@ -20,9 +20,9 @@ export default function Home() {
               We Take Your Dream Home & Make It Real
             </h1>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
-              saepe? Accusamus incidunt, eius veniam temporibus molestiae ipsum.
-              Suscipit, non voluptate fuga molestias quidem quae labore?
+             At AV-Construction, we turn your vision into reality. 
+            From concept to completion, we build with precision, passion, and purpose. 
+            Trust us to craft spaces that inspire and endure.
             </p>
             <div className="flex gap-3">
               <Button href="/contact">Contact Us</Button>
@@ -45,9 +45,9 @@ export default function Home() {
             Making Your vision come true at the basics
           </h2>
           <p className="text-foreground">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim,
-            repellendus? Rem animi velit, dolore nemo corporis accusantium
-            fugiat molestiae eius, eos veniam ratione architecto assumenda.
+            Building more than homes, we create legacies. At AV-Construction, 
+            we transform ideas into extraordinary spaces, 
+            blending craftsmanship with innovation to bring your dream to life.
           </p>
           <div className="flex gap-3 ">
             <div className="space-y-3">
@@ -71,12 +71,10 @@ export default function Home() {
             </h3>
 
             <p className="text-foreground">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Aspernatur incidunt est, molestias molestiae at rem placeat
-              provident quae nobis, quis possimus nesciunt neque magni
-              recusandae, eum reprehenderit et repellendus deleniti pariatur
-              aliquid voluptas expedita veritatis. Fuga quasi odit sequi
-              consectetur!
+             At AV-Construction, we believe every project is more than just bricks and mortar—it's a step toward creating a brighter future. 
+              Our mission is to craft spaces that not only stand the test of time but also inspire growth, foster connections, and improve lives. 
+              Whether it’s a dream home, a commercial masterpiece, or a transformative community project, we bring your vision to life with precision, innovation, and unwavering commitment. 
+              Let us build the future you’ve always imagined—one foundation at a time.
             </p>
           </div>
         </div>
@@ -85,22 +83,18 @@ export default function Home() {
             icon={<AiOutlineFundProjectionScreen />}
             title="Project Planning"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            consequatur voluptas sapiente. Saepe debitis illo, placeat
-            exercitationem sequi quam neque!
+     At AV-Construction, we lay the groundwork for success with meticulous project planning. 
+            From initial concepts to actionable strategies, we ensure every detail aligns with your vision. Our expertise guarantees seamless execution, 
+            delivering results that exceed expectations every step of the way.
           </ServiceCard>
           <ServiceCard
             icon={<MdOutlineDesignServices />}
             title="Interior Design"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            consequatur voluptas sapiente. Saepe debitis illo, placeat
-            exercitationem sequi quam neque!
+       Transform your space into a masterpiece with AV-Construction. Our interior design services blend creativity, functionality, and elegance to create environments that reflect your style and elevate your everyday living.
           </ServiceCard>
           <ServiceCard icon={<IoBarChartOutline />} title="Budget Planning">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            consequatur voluptas sapiente. Saepe debitis illo, placeat
-            exercitationem sequi quam neque!
+            At AV-Construction, we turn dreams into reality without breaking the bank. Our budget planning services ensure your project stays on track financially while maintaining the highest standards of quality and efficiency. Let us help you build smart and stress-free.
           </ServiceCard>
         </div>
       </Container>
@@ -113,9 +107,8 @@ export default function Home() {
               <h2 className="text-3xl font-bold">Our Latest Projects</h2>
             </div>
             <p className="flex-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              veritatis consequatur hic ipsam tenetur, eum deserunt, numquam
-              inventore, ipsum impedit id quas ex incidunt optio.
+              Explore the craftsmanship and innovation behind AV-Construction's recent achievements. 
+              From stunning residential spaces to cutting-edge commercial builds, our latest projects showcase our commitment to excellence and our passion for bringing visions to life.
             </p>
           </div>
           <div className="overflow-x-auto md:scrollbar-hide">
