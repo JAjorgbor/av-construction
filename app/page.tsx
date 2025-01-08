@@ -20,9 +20,9 @@ export default function Home() {
               We Take Your Dream Home & Make It Real
             </h1>
             <p>
-             At AV-Construction, we turn your vision into reality. 
-            From concept to completion, we build with precision, passion, and purpose. 
-            Trust us to craft spaces that inspire and endure.
+              At AV-Construction, we turn your vision into reality. From concept
+              to completion, we build with precision, passion, and purpose.
+              Trust us to craft spaces that inspire and endure.
             </p>
             <div className="flex gap-3">
               <Button href="/contact">Contact Us</Button>
@@ -45,9 +45,9 @@ export default function Home() {
             Making Your vision come true at the basics
           </h2>
           <p className="text-foreground">
-            Building more than homes, we create legacies. At AV-Construction, 
-            we transform ideas into extraordinary spaces, 
-            blending craftsmanship with innovation to bring your dream to life.
+            Building more than homes, we create legacies. At AV-Construction, we
+            transform ideas into extraordinary spaces, blending craftsmanship
+            with innovation to bring your dream to life.
           </p>
           <div className="flex gap-3 ">
             <div className="space-y-3">
@@ -71,10 +71,15 @@ export default function Home() {
             </h3>
 
             <p className="text-foreground">
-             At AV-Construction, we believe every project is more than just bricks and mortar—it's a step toward creating a brighter future. 
-              Our mission is to craft spaces that not only stand the test of time but also inspire growth, foster connections, and improve lives. 
-              Whether it’s a dream home, a commercial masterpiece, or a transformative community project, we bring your vision to life with precision, innovation, and unwavering commitment. 
-              Let us build the future you’ve always imagined—one foundation at a time.
+              At AV-Construction, we believe every project is more than just
+              bricks and mortar—it&apos;s a step toward creating a brighter
+              future. Our mission is to craft spaces that not only stand the
+              test of time but also inspire growth, foster connections, and
+              improve lives. Whether it&apos;s a dream home, a commercial
+              masterpiece, or a transformative community project, we bring your
+              vision to life with precision, innovation, and unwavering
+              commitment. Let us build the future you&apos;ve always
+              imagined—one foundation at a time.
             </p>
           </div>
         </div>
@@ -83,18 +88,26 @@ export default function Home() {
             icon={<AiOutlineFundProjectionScreen />}
             title="Project Planning"
           >
-     At AV-Construction, we lay the groundwork for success with meticulous project planning. 
-            From initial concepts to actionable strategies, we ensure every detail aligns with your vision. Our expertise guarantees seamless execution, 
-            delivering results that exceed expectations every step of the way.
+            At AV-Construction, we lay the groundwork for success with
+            meticulous project planning. From initial concepts to actionable
+            strategies, we ensure every detail aligns with your vision. Our
+            expertise guarantees seamless execution, delivering results that
+            exceed expectations every step of the way.
           </ServiceCard>
           <ServiceCard
             icon={<MdOutlineDesignServices />}
             title="Interior Design"
           >
-       Transform your space into a masterpiece with AV-Construction. Our interior design services blend creativity, functionality, and elegance to create environments that reflect your style and elevate your everyday living.
+            Transform your space into a masterpiece with AV-Construction. Our
+            interior design services blend creativity, functionality, and
+            elegance to create environments that reflect your style and elevate
+            your everyday living.
           </ServiceCard>
           <ServiceCard icon={<IoBarChartOutline />} title="Budget Planning">
-            At AV-Construction, we turn dreams into reality without breaking the bank. Our budget planning services ensure your project stays on track financially while maintaining the highest standards of quality and efficiency. Let us help you build smart and stress-free.
+            At AV-Construction, we turn dreams into reality without breaking the
+            bank. Our budget planning services ensure your project stays on
+            track financially while maintaining the highest standards of quality
+            and efficiency. Let us help you build smart and stress-free.
           </ServiceCard>
         </div>
       </Container>
@@ -107,8 +120,11 @@ export default function Home() {
               <h2 className="text-3xl font-bold">Our Latest Projects</h2>
             </div>
             <p className="flex-1">
-              Explore the craftsmanship and innovation behind AV-Construction's recent achievements. 
-              From stunning residential spaces to cutting-edge commercial builds, our latest projects showcase our commitment to excellence and our passion for bringing visions to life.
+              Explore the craftsmanship and innovation behind
+              AV-Construction&apos;s recent achievements. From stunning
+              residential spaces to cutting-edge commercial builds, our latest
+              projects showcase our commitment to excellence and our passion for
+              bringing visions to life.
             </p>
           </div>
           <div className="overflow-x-auto md:scrollbar-hide">
