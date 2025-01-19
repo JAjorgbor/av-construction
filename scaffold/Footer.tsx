@@ -1,4 +1,5 @@
 import Button from "@/components/elements/Button";
+import Image from "next/image";
 import Container from "@/components/elements/Container";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -16,7 +17,11 @@ const Footer = () => {
                 Do you have a building project in mind?
               </h3>
               <p>
-           AV-Construction is here to help make your plans a reality. Whether you’re considering a new home, a renovation, or a commercial build, reach out to AV-Construction. Share your ideas with us, and we’ll work with you to bring them to life with care and precision.
+                AV-Construction is here to help make your plans a reality.
+                Whether you’re considering a new home, a renovation, or a
+                commercial build, reach out to AV-Construction. Share your ideas
+                with us, and we’ll work with you to bring them to life with care
+                and precision.
               </p>
             </div>
             <div className="flex-1 flex gap-3 items-center md:justify-end">
@@ -29,12 +34,14 @@ const Footer = () => {
         </Container>
       </div>
       <footer className="py-6">
-        <Container className="flex flex-col md:flex-row gap-8 justify-between ">
-          <span>Logo</span>
+        <Container className="flex flex-col md:flex-row gap-8 justify-between md:items-center">
+          <Link href="/">
+            <Image alt="logo" width={100} height={70} src="/media/logo.png" />
+          </Link>
           <ul className="flex flex-col md:flex-row md:items-center gap-4">
             <li>
               <Link
-                href="#"
+                href="/"
                 className="w-full hover:text-primary inline-block h-full"
               >
                 Home
@@ -42,7 +49,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/about"
                 className="w-full hover:text-primary inline-block h-full"
               >
                 About
@@ -50,7 +57,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/services"
                 className="w-full hover:text-primary inline-block h-full"
               >
                 Services
@@ -58,7 +65,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/projects"
                 className="w-full hover:text-primary inline-block h-full"
               >
                 Projects

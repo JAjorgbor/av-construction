@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Button from "@/components/elements/Button";
 import Container from "@/components/elements/Container";
 import useMediaQuery from "@/hooks/useMediaQuery";
@@ -32,7 +33,11 @@ const Header = () => {
     >
       <Container className="">
         <nav className="flex gap-3 justify-between items-center">
-          <span>Logo</span>
+          <span>
+            <Link href="/">
+              <Image alt="logo" width={100} height={70} src="/media/logo.png" />
+            </Link>
+          </span>
           <ul className="hidden md:flex items-center gap-4">
             <li>
               <Link
