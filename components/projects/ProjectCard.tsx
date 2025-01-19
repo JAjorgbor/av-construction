@@ -1,13 +1,14 @@
+"use client";
 import Image from "next/image";
-import React from "react";
 // import { CiLocationOn } from "react-icons/ci";
 // import { IoBedOutline } from "react-icons/io5";
 // import { LuBath } from "react-icons/lu";
 // import { RxDimensions } from "react-icons/rx";
 
 const ProjectCard = ({
-  image,
+  image = "https://dummyimage.com/500x400",
   title,
+  onClick,
 }: // location,
 // squareFeet,
 // bedroomCount,
@@ -19,11 +20,16 @@ const ProjectCard = ({
   squareFeet?: number | string;
   bedroomCount?: number;
   bathroomCount?: string | number;
+  onClick: any;
 }) => {
   return (
-    <div className="overflow-hidden rounded-xl shadow-lg">
+    <div
+      className="overflow-hidden rounded-xl shadow-lg cursor-pointer"
+      onClick={onClick}
+      tabIndex={-1}
+    >
       <Image
-        src={image || "https://dummyimage.com/500x400"}
+        src={image}
         className="h-[200px] object-cover"
         alt={title}
         width={500}
