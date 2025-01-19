@@ -69,17 +69,17 @@ export default function ServicesPage() {
               </p>
               <ul className="list-disc pl-5">
                 <li>
-                  <strong className="font-bold">Tailored Concepts:</strong>
-                  We work closely with you to understand your vision and
-                  translate it into bespoke designs.
+                  <strong className="font-bold"> Tailored Concepts:</strong> We
+                  work closely with you to understand your vision and translate
+                  it into bespoke designs.
                 </li>
                 <li>
-                  <strong className="font-bold">Material Selection:</strong>
+                  <strong className="font-bold"> Material Selection:</strong>{" "}
                   From textures to color palettes, we source premium materials
                   that bring your dream space to life.
                 </li>
                 <li>
-                  <strong className="font-bold">Innovative Designs:</strong>
+                  <strong className="font-bold"> Innovative Designs:</strong>{" "}
                   Our team stays ahead of trends, ensuring your interiors are
                   timeless, modern, and optimized for comfort.
                 </li>
@@ -115,17 +115,17 @@ export default function ServicesPage() {
               </p>
               <ul className="list-disc pl-5">
                 <li>
-                  <strong className="font-bold">Transparent Estimates:</strong>
+                  <strong className="font-bold">Transparent Estimates:</strong>{" "}
                   We provide detailed cost breakdowns so you know exactly where
                   your investment is going.
                 </li>
                 <li>
-                  <strong className="font-bold">Cost Optimization:</strong>
+                  <strong className="font-bold">Cost Optimization:</strong>{" "}
                   Leveraging industry connections, we secure the best materials
                   and services at competitive rates.
                 </li>
                 <li>
-                  <strong className="font-bold">Financial Oversight:</strong>
+                  <strong className="font-bold">Financial Oversight:</strong>{" "}
                   Throughout the project, we monitor expenses to keep the budget
                   aligned with your expectations.
                 </li>
