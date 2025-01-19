@@ -18,10 +18,10 @@ const Footer = () => {
               </h3>
               <p>
                 AV-Construction is here to help make your plans a reality.
-                Whether you’re considering a new home, a renovation, or a
+                Whether you&apos;re considering a new home, a renovation, or a
                 commercial build, reach out to AV-Construction. Share your ideas
-                with us, and we’ll work with you to bring them to life with care
-                and precision.
+                with us, and we&apos;ll work with you to bring them to life with
+                care and precision.
               </p>
             </div>
             <div className="flex-1 flex gap-3 items-center md:justify-end">
