@@ -4,6 +4,7 @@ import ProjectCard from "@/components/projects/ProjectCard";
 
 const dummyData = [
   {
+    image: "/media/project-1.jpg",
     title: "3-Bedroom Apartment in Lekki Phase 1",
     location: "Lekki, Lagos",
     squareFeet: 1200,
@@ -11,6 +12,7 @@ const dummyData = [
     bathroomCount: 2,
   },
   {
+    image: "/media/project-2.jpg",
     title: "Luxury Duplex in Banana Island",
     location: "Ikoyi, Lagos",
     squareFeet: "5000",
@@ -18,6 +20,7 @@ const dummyData = [
     bathroomCount: 6,
   },
   {
+    image: "/media/project-3.jpg",
     title: "Affordable 2-Bedroom Flat in Kubwa",
     location: "Kubwa, Abuja",
     squareFeet: 800,
@@ -25,12 +28,38 @@ const dummyData = [
     bathroomCount: 2,
   },
   {
+    image: "/media/project-4.jpg",
     title: "Modern Studio Apartment in Wuse 2",
     location: "Wuse 2, Abuja",
     squareFeet: 500,
     bathroomCount: 1,
   },
   {
+    image: "/media/project-5.jpg",
+    title: "4-Bedroom Detached House in GRA",
+    location: "Port Harcourt, Rivers",
+    squareFeet: "3500",
+    bedroomCount: 4,
+    bathroomCount: 3,
+  },
+  {
+    image: "/media/project-6.jpg",
+    title: "4-Bedroom Detached House in GRA",
+    location: "Port Harcourt, Rivers",
+    squareFeet: "3500",
+    bedroomCount: 4,
+    bathroomCount: 3,
+  },
+  {
+    image: "/media/project-7.jpg",
+    title: "4-Bedroom Detached House in GRA",
+    location: "Port Harcourt, Rivers",
+    squareFeet: "3500",
+    bedroomCount: 4,
+    bathroomCount: 3,
+  },
+  {
+    image: "/media/project-8.jpg",
     title: "4-Bedroom Detached House in GRA",
     location: "Port Harcourt, Rivers",
     squareFeet: "3500",
@@ -50,6 +79,7 @@ export default function ProjectsPage() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {dummyData.map((each, index) => (
             <ProjectCard
+              image={each.image}
               key={index}
               title={each.title}
               location={each.location}
