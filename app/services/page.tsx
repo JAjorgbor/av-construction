@@ -17,6 +17,15 @@ export default function ServicesPage() {
         <h3 className="font-bold text-xl text-center my-10">
           Explore our professional services
         </h3>
+        <p className="my-5">
+          AV Constructions LTD is a specialized construction company. Our
+          services are targeted to meet with the clients&apos; expectations and
+          requirements. Each project is treated as unique and adequate time is
+          devoted to understanding clients&apos; need proffering solutions that
+          are specific to projects. Our personnel are driven by the great desire
+          to accomplish all projects within the time scheduled and to enhance
+          profitability.
+        </p>
         <div className="space-y-12">
           <div className="flex gap-4 flex-col lg:flex-row items-center">
             <Image
