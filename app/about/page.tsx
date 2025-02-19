@@ -2,8 +2,11 @@ import BreadCrumbs from "@/components/elements/Breadcrumbs";
 import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
 import Image from "next/image";
+import Link from "next/link";
 import { FiEye } from "react-icons/fi";
 import { GiTargetArrows } from "react-icons/gi";
+
+export const metadata = { title: "About" };
 
 export default function AboutPage() {
   return (
@@ -12,7 +15,7 @@ export default function AboutPage() {
         title="About Us"
         links={[{ label: "About", href: "/about" }]}
       />
-      <Container className="space-y-10">
+      <Container className="space-y-10 text-foreground">
         <div className="flex flex-col items-center gap-3  text-center">
           <h3 className="text-center flex gap-3 flex-wrap justify-center items-end font-bold text-3xl text-primary">
             About{" "}
@@ -66,11 +69,11 @@ export default function AboutPage() {
               </div>
             </div>
             <Image
-              src="https://dummyimage.com/300x400"
+              src="/media/about-image-1.jpg"
               alt="CAC Preview"
               className="w-full"
-              width={400}
-              height={500}
+              width={600}
+              height={600}
             />
           </div>
           <br />
@@ -120,41 +123,78 @@ export default function AboutPage() {
 
         <div className="space-y-5 ">
           <Title className="justify-center">Meet The Team</Title>
-          <div className="grid  md:grid-cols-4 lg:grid-cols-5 gap-4">
+          <div className="grid  md:grid-cols-4  gap-4">
             <div className="md:col-span-2 md:row-span-2 space-y-3 text-center">
               <Image
-                src="https://dummyimage.com/300x300"
+                src="/media/ceo.jpg"
                 alt="ARC. ATHANASIUS MANJI ALBERT"
                 className="w-full object-cover"
-                width={300}
-                height={300}
+                width={800}
+                height={800}
               />
-              <div className="space-y-2">
+              <div className="space-y-1">
                 <p className="font-semibold text-lg">
                   ARC. ATHANASIUS MANJI ALBERT
                 </p>
-                <p className="text-primary">Managing Director/C.E.O</p>
+                <p className="text-primary">Founder and M.D</p>
+                <p>
+                  <span className="font-semibold">Contact: </span>
+                  <Link
+                    target="_blank"
+                    href={"mailto:md@avconstructions.com"}
+                    className="text-primary hover:underline"
+                  >
+                    md@avconstructions.com
+                  </Link>
+                </p>
               </div>
             </div>
-            {Array(5)
-              .fill(null)
-              .map((each, index) => (
-                <div className="space-y-3 text-center" key={index}>
-                  <Image
-                    src="https://dummyimage.com/200x200"
-                    alt="ARC. ANDREW DURKWA ANDREW"
-                    className="w-full object-cover"
-                    width={200}
-                    height={200}
-                  />
-                  <div className="space-y-2">
-                    <p className="font-semibold text-lg">
-                      ARC. ANDREW DURKWA ANDREW
-                    </p>
-                    <p className="text-primary">Senior Architect</p>
-                  </div>
-                </div>
-              ))}
+            <div className="space-y-3 text-center">
+              <Image
+                src="/media/alvari.jpg"
+                alt="ARC. ANDREW DURKWA ANDREW"
+                className="w-full object-cover object-center"
+                width={200}
+                height={200}
+              />
+              <div className="space-y-2 break-words">
+                <p className="font-semibold text-lg">Athanasius Manji Alvari</p>
+                <p className="text-primary">Q.S</p>
+                <p>
+                  <span className="font-semibold">Contact: </span>
+                  <Link
+                    target="_blank"
+                    href={"mailto:qs_athanasius@avconstructionsltd.com"}
+                    className="text-primary hover:underline"
+                  >
+                    qs_athanasius@avconstructionsltd.com
+                  </Link>
+                </p>
+              </div>
+            </div>
+            <div className="space-y-3 text-center">
+              <Image
+                src="/media/benezar.jpg"
+                alt="Benezar K. Athanasius"
+                className="w-full object-cover object-center"
+                width={200}
+                height={200}
+              />
+              <div className="space-y-2">
+                <p className="font-semibold text-lg">Benezar K. Athanasius</p>
+                <p className="text-primary">Human Resource Manager</p>
+                <p>
+                  <span className="font-semibold">Contact: </span>
+                  <Link
+                    target="_blank"
+                    href={"mailto:hr@avconstructionsltd.com"}
+                    className="text-primary hover:underline"
+                  >
+                    hr@avconstructionsltd.com
+                  </Link>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </Container>

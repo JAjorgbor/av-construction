@@ -13,7 +13,7 @@ export default {
       colors: {
         primary: "#0863a3",
         secondary: "#1E1E1E",
-        foreground: "#696868",
+        foreground: "#383737",
       },
     },
   },
