@@ -2,6 +2,8 @@ import BreadCrumbs from "@/components/elements/Breadcrumbs";
 import Container from "@/components/elements/Container";
 import ProjectsSection from "@/components/projects/ProjectsSection";
 
+export const metadata = { title: "Projects" };
+
 export default function ProjectsPage() {
   return (
     <>
