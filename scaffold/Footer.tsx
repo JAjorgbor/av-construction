@@ -2,7 +2,7 @@ import Button from "@/components/elements/Button";
 import Image from "next/image";
 import Container from "@/components/elements/Container";
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa6";
+import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
@@ -75,21 +75,31 @@ const Footer = () => {
           <div className="flex gap-3">
             <Link
               className="p-3 transition-all duration-500 rounded-none hover:bg-secondary border border-primary hover:text-primary hover:rounded-full bg-primary text-white"
-              href="#"
+              href="https://www.facebook.com/share/1BmXmWeuHG/"
+              target="_blank"
             >
               <FiFacebook size={20} />
             </Link>
             <Link
               className="p-3 transition-all duration-500 rounded-none hover:bg-secondary border border-primary hover:text-primary hover:rounded-full bg-primary text-white"
-              href="#"
+              href="https://www.instagram.com/_avconstruction?igsh=dmc1dHZqNXczeXdu"
+              target="_blank"
             >
               <FiInstagram size={20} />
             </Link>
             <Link
               className="p-3 transition-all duration-500 rounded-none hover:bg-secondary border border-primary hover:text-primary hover:rounded-full bg-primary text-white"
-              href="#"
+              href="https://wa.link/h0f7jc"
+              target="_blank"
             >
               <FaWhatsapp size={20} />
+            </Link>
+            <Link
+              className="p-3 transition-all duration-500 rounded-none hover:bg-secondary border border-primary hover:text-primary hover:rounded-full bg-primary text-white"
+              href="https://x.com/_avconstruction?s=09"
+              target="_blank"
+            >
+              <FaXTwitter size={20} />
             </Link>
           </div>
         </Container>
