@@ -40,7 +40,7 @@ export default function ContactPage() {
             </div>
           </Link>
           <Link
-            href="mailto:example@email.com"
+            href="mailto:info@avconstructionsltd.com"
             className="group  hover:text-white hover:bg-primary p-5 flex gap-3 items-center shadow hover:drop-shadow-2xl traisiton-all duration-700"
           >
             <span className="text-primary group-hover:text-inherit">
@@ -50,7 +50,7 @@ export default function ContactPage() {
               <span className="block text-2xl text-primary group-hover:text-inherit font-bold">
                 Email
               </span>
-              <span>example@email.com</span>
+              <span>info@avconstructionsltd.com</span>
             </div>
           </Link>
           <Link
@@ -64,7 +64,7 @@ export default function ContactPage() {
               <span className="block text-2xl text-primary group-hover:text-inherit font-bold">
                 Address
               </span>
-              <span>Example Address</span>
+              <span>13 Onitsha Crescent Garki Area 11 Abuja.</span>
             </div>
           </Link>
         </div>
