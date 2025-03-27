@@ -26,7 +26,7 @@ export default function ContactPage() {
         </div>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] text-foreground gap-5  mx-auto">
           <Link
-            href="tel:09000000000"
+            href="tel:2348060036398"
             className="group  hover:text-white hover:bg-primary p-5 flex gap-3 items-center shadow hover:drop-shadow-2xl traisiton-all duration-700"
           >
             <span className="text-primary group-hover:text-inherit">
@@ -36,7 +36,7 @@ export default function ContactPage() {
               <span className="block text-2xl text-primary group-hover:text-inherit font-bold">
                 Phone
               </span>
-              <span>0900 000 0000</span>
+              <span>+234 806 003 6398</span>
             </div>
           </Link>
           <Link
