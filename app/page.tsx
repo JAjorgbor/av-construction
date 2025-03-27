@@ -26,7 +26,7 @@ export default function Home() {
             </p>
             <div className="flex gap-3">
               <Button href="/contact">Contact Us</Button>
-              <Button variant="ghost">Learn More</Button>
+              <Button href="/services" variant="ghost">Learn More</Button>
             </div>
           </div>
         </Container>
@@ -51,12 +51,12 @@ export default function Home() {
           </p>
           <div className="flex gap-3 ">
             <div className="space-y-3">
-              <span className="block text-5xl text-primary">888+</span>
-              <span>Projects Completed</span>
+              <span className="block text-5xl text-primary">10+</span>
+              <span>Projects Ongoing </span>
             </div>
             <div className="space-y-3">
-              <span className="block text-5xl text-primary">786+</span>
-              <span>Projects Completed</span>
+              <span className="block text-5xl text-primary">50+</span>
+              <span>Projects Completed </span>
             </div>
           </div>
           <Button>More About Us</Button>
