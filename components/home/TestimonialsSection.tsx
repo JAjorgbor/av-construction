@@ -1,5 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
@@ -79,7 +81,19 @@ const TestimonialsSection = () => {
   return (
     <div className="">
       <div className="col-span-12 relative">
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        // modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+      </Swiper>
         <div className="pb-[40px] md:pb-0 overflow-hidden ">
+          
           <motion.div
             className="flex gap-3 min-w-max p-10"
             animate={{
