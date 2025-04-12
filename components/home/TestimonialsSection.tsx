@@ -31,48 +31,88 @@ const TestimonialsSection = () => {
 
   const content = [
     {
-      name: "Mark Henry",
+      name: "Mr. Temitope Shunobi  Co-founder and Executive Director of Sahara Group",
       comment: (
         <>
-          I got a good deal for 6 units of 4 bedroom terrace with 1 room servant
-          quarters &amp; a 2 bedroom flat sitting on a 2200sqm land with C of O.
+         I am impressed with Albert and his work in my house. He is young and knows what he is looking for in life, I recommend him.
         </>
       ),
     },
     {
-      name: "John Oliver",
+      name: "Mr. Samson Ghani Kato: Sahara Group",
       comment: (
         <>
-          I got a good deal for 6 units of 4 bedroom terrace with 1 room servant
-          quarters &amp; a 2 bedroom flat sitting on a 2200sqm land with C of O.
+          Albert and his company are doing very well. I am very impressed by their work ethic and integrity. I highly recommend AV.
+
         </>
       ),
     },
     {
-      name: "Ahmed Uktar",
+      name: "Mr. Seun: M.D Centurium",
       comment: (
         <>
-          I got a good deal for 6 units of 4 bedroom terrace with 1 room servant
-          quarters &amp; a 2 bedroom flat sitting on a 2200sqm land with C of O.
+           I recommend AV.
+
         </>
       ),
     },
     {
-      name: "Koredo Bello",
+      name: "Pst. Engr. Opeyemi J",
       comment: (
         <>
-          I have had a very positive experience with Raisa Palms, dealing with
-          Farida. They are very professional and responsive.
+         AV Construction is simply the best choice for construction. Full of young and talented individuals.
         </>
       ),
     },
     {
-      name: "Oliver Stephen",
+      name: "Emmanuel C. Vincent",
       comment: (
         <>
-          Bary do a great job to find the perfect home. It&apos;s very easy for
-          every one to buy, sell or rent property we belive they continure their
-          great service and appriciate them recomended.
+         OMO baba wuna too sabi. Highly recommended always.
+
+        </>
+      ),
+    },
+    {
+      name: "Birma J. J",
+      comment: (
+        <>
+       Wow, you guys have really gone so far in such a short time. I am very impressed and would surely recommend you my friend.
+
+
+        </>
+      ),
+    },
+     {
+      name: "Mr.  Kenna: GreenVille LNG",
+      comment: (
+        <>
+       Your work is sharp, topnotch and I love it.
+        </>
+      ),
+    },
+     {
+      name: "Mr. Nabil: Greenville LNG",
+      comment: (
+        <>
+     Thank you Mr. Albert and the entire team for a work well-done. I am very grateful.
+        </>
+      ),
+    },
+     {
+      name: "Mr. Idris: M.D Aik concepts LTD",
+      comment: (
+        <>
+     Superb and excellent work.
+        </>
+      ),
+    },
+    {
+      name: "Mrs. Susuan Kunle",
+      comment: (
+        <>
+    I am glad Mr. Samson recommended you and not someone else. I love the final output and would surely call you guys back.
+
         </>
       ),
     },

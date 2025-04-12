@@ -27,7 +27,9 @@ export default function Home() {
             </p>
             <div className="flex gap-3">
               <Button href="/contact">Contact Us</Button>
-              <Button variant="ghost">Learn More</Button>
+              <Button href="/services" variant="ghost">
+                Learn More
+              </Button>
             </div>
           </div>
         </Container>
