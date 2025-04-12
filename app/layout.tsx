@@ -3,6 +3,8 @@ import Footer from "@/scaffold/Footer";
 import Header from "@/scaffold/Header";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export const roboto = Roboto({
   weight: ["300", "400", "700"],

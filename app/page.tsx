@@ -1,3 +1,4 @@
+import AboutStats from "@/components/about/AboutStats";
 import Button from "@/components/elements/Button";
 import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
@@ -49,16 +50,7 @@ export default function Home() {
             transform ideas into extraordinary spaces, blending craftsmanship
             with innovation to bring your dream to life.
           </p>
-          <div className="flex gap-3 ">
-            <div className="space-y-3">
-              <span className="block text-5xl text-primary">888+</span>
-              <span>Projects Completed</span>
-            </div>
-            <div className="space-y-3">
-              <span className="block text-5xl text-primary">786+</span>
-              <span>Projects Completed</span>
-            </div>
-          </div>
+          <AboutStats />
           <Button>More About Us</Button>
         </div>
       </Container>

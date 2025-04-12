@@ -1,3 +1,4 @@
+import AboutStats from "@/components/about/AboutStats";
 import BreadCrumbs from "@/components/elements/Breadcrumbs";
 import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
@@ -24,16 +25,7 @@ export default function AboutPage() {
             </span>
           </h3>
           <p className="text-primary">Established since 2019</p>
-          <div className="flex gap-3 ">
-            <div className="space-y-3">
-              <span className="block text-5xl text-primary">888+</span>
-              <span>Projects Completed</span>
-            </div>
-            <div className="space-y-3">
-              <span className="block text-5xl text-primary">786+</span>
-              <span>Projects Completed</span>
-            </div>
-          </div>
+          <AboutStats />
         </div>
         <div>
           <div className="grid md:grid-cols-3 gap-6">
