@@ -122,7 +122,7 @@ const TestimonialsSection = () => {
               if (
                 prevRef.current &&
                 nextRef.current &&
-                swiper.params.navigation
+                swiper.params?.navigation
               ) {
                 const navigationOptions = swiper.params.navigation as any;
                 navigationOptions.prevEl = prevRef.current;

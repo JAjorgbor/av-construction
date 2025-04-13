@@ -4,7 +4,7 @@ import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
 import Image from "next/image";
 import Link from "next/link";
-import { FiEye } from "react-icons/fi";
+import { FiEye, FiMail } from "react-icons/fi";
 import { GiTargetArrows } from "react-icons/gi";
 
 export const metadata = { title: "About" };
@@ -115,74 +115,113 @@ export default function AboutPage() {
 
         <div className="space-y-5 ">
           <Title className="justify-center">Meet The Team</Title>
-          <div className="grid  md:grid-cols-4  gap-4">
-            <div className="md:col-span-2 md:row-span-2 space-y-3 text-center">
+          <div className="grid md:grid-cols-4  gap-4">
+            <div className="space-y-3 bg-white drop-shadow-xl">
               <Image
                 src="/media/ceo.jpg"
                 alt="ARC. ATHANASIUS MANJI ALBERT"
-                className="w-full object-cover"
+                className="w-full object-cover h-[350px]"
                 width={800}
                 height={800}
               />
-              <div className="space-y-1">
-                <p className="font-semibold text-lg">
-                  ARC. ATHANASIUS MANJI ALBERT
-                </p>
-                <p className="text-primary">Founder and M.D</p>
-                <p>
-                  <span className="font-semibold">Contact: </span>
+              <div className="space-y-2 flex flex-col flex-grow divide-y">
+                <div className="p-3 flex-grow">
+                  <p className="font-semibold text-lg">
+                    ARC. ATHANASIUS MANJI ALBERT
+                  </p>
+                  <p className="text-primary">Founder and M.D</p>
+                </div>
+                <p className="p-3 flex justify-center h-12">
+                  {/* <span className="font-semibold">Contact: </span> */}
                   <Link
                     target="_blank"
                     href={"mailto:md@avconstructions.com"}
+                    aria-label="message md@avconstructions.com"
                     className="text-primary hover:underline"
                   >
-                    md@avconstructions.com
+                    <FiMail size={25} />
                   </Link>
                 </p>
               </div>
             </div>
-            <div className="space-y-3 text-center">
+            <div className="space-y-3 flex flex-col drop-shadow-xl bg-white">
               <Image
                 src="/media/alvari.jpg"
                 alt="ARC. ANDREW DURKWA ANDREW"
-                className="w-full object-cover object-center"
+                className="w-full object-cover object-center h-[350px]"
                 width={200}
                 height={200}
               />
-              <div className="space-y-2 break-words">
-                <p className="font-semibold text-lg">Athanasius Manji Alvari</p>
-                <p className="text-primary">Q.S</p>
-                <p>
-                  <span className="font-semibold">Contact: </span>
+              <div className="space-y-2 flex flex-col flex-grow divide-y">
+                <div className="p-3 flex-grow">
+                  <p className="font-semibold text-lg">
+                    Athanasius Manji Alvari
+                  </p>
+                  <p className="text-primary">Q.S</p>
+                </div>
+                <p className="p-3 flex justify-center h-12">
+                  {/* <span className="font-semibold">Contact: </span> */}
                   <Link
                     target="_blank"
                     href={"mailto:qs_athanasius@avconstructionsltd.com"}
+                    aria-label="qs_athanasimessage us@avconstructionsltd.com"
                     className="text-primary hover:underline"
                   >
-                    qs_athanasius@avconstructionsltd.com
+                    <FiMail size={25} />
                   </Link>
                 </p>
               </div>
             </div>
-            <div className="space-y-3 text-center">
+            <div className="space-y-3  drop-shadow-xl bg-white flex flex-col">
               <Image
                 src="/media/benezar.jpg"
                 alt="Benezar K. Athanasius"
-                className="w-full object-cover object-center"
+                className="w-full object-cover object-center h-[350px]"
                 width={200}
                 height={200}
               />
-              <div className="space-y-2">
-                <p className="font-semibold text-lg">Benezar K. Athanasius</p>
-                <p className="text-primary">Human Resource Manager</p>
-                <p>
-                  <span className="font-semibold">Contact: </span>
+              <div className="space-y-2 flex flex-col flex-grow divide-y">
+                <div className="p-3 flex-grow">
+                  <p className="font-semibold text-lg">Benezar K. Athanasius</p>
+                  <p className="text-primary">Human Resource Manager</p>
+                </div>
+                <p className="p-3 flex justify-center h-12">
+                  {/* <span className="font-semibold">Contact: </span> */}
                   <Link
                     target="_blank"
                     href={"mailto:hr@avconstructionsltd.com"}
+                    aria-label="message hr@avconstructionsltd.com"
                     className="text-primary hover:underline"
                   >
-                    hr@avconstructionsltd.com
+                    <FiMail size={25} />
+                  </Link>
+                </p>
+              </div>
+            </div>
+            <div className="space-y-3  drop-shadow-xl bg-white">
+              <Image
+                src="/media/cloudia.jpg"
+                alt="Benezar K. Athanasius"
+                className="w-full object-cover object-center h-[350px]"
+                width={200}
+                height={200}
+              />
+              <div className="space-y-2 flex flex-col flex-grow divide-y">
+                <div className="p-3 flex-grow">
+                  <p className="font-semibold text-lg">Cloudia Beltran</p>
+                  <p className="text-primary">
+                    HoD Marketing & Social Media Management
+                  </p>
+                </div>
+                <p className="p-3 flex justify-center h-12">
+                  {/* <span className="font-semibold">Contact: </span> */}
+                  <Link
+                    target="_blank"
+                    href={"mailto:marketing@constructionsltd.com "}
+                    aria-label="marketimessage ng@constructionsltd.com "
+                    className="text-primary hover:underline"
+                  >
+                    <FiMail size={25} />
                   </Link>
                 </p>
               </div>

@@ -53,7 +53,7 @@ export default function Home() {
             with innovation to bring your dream to life.
           </p>
           <AboutStats />
-          <Button>More About Us</Button>
+          <Button href="/about">More About Us</Button>
         </div>
       </Container>
       <Container className="space-y-10">

@@ -4,7 +4,8 @@ import { AnchorHTMLAttributes, forwardRef } from "react";
 import { ClipLoader } from "react-spinners";
 
 const buttonVariants = {
-  primary: "bg-primary  text-white shadow",
+  primary:
+    "bg-primary hover:bg-white hover:text-primary hover:border-primary hover:border text-white shadow",
   secondary: "bg-secondary hover:opacity-90 text-white shadow",
   tertiary: "bg-secondary hover:bg-primary text-white shadow",
   warning: "bg-yellow-400 hover:bg-yellow-500 next-nevada shadow",
