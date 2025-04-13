@@ -55,6 +55,44 @@ const projectsData = [
     title: "Proposed 3 bedroom Bungalow",
     location: "Jimeta, Yola",
   },
+  {
+    images: [
+      "/media/projects/outdoor-kitchen-and-store/1.jpg",
+      "/media/projects/outdoor-kitchen-and-store/2.jpg",
+      "/media/projects/outdoor-kitchen-and-store/3.jpg",
+      "/media/projects/outdoor-kitchen-and-store/4.jpg",
+      "/media/projects/outdoor-kitchen-and-store/5.jpg",
+      "/media/projects/outdoor-kitchen-and-store/6.jpg",
+      "/media/projects/outdoor-kitchen-and-store/7.jpg",
+      "/media/projects/outdoor-kitchen-and-store/8.jpg",
+    ],
+    title: "Outdoor kitchen and Store",
+    location: "Asokoro, Abuja",
+  },
+  {
+    images: [
+      "/media/projects/completed-3bedroom-in-baraks-road/1.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/2.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/3.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/4.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/5.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/6.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/7.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/8.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/9.jpg",
+      "/media/projects/completed-3bedroom-in-baraks-road/10.jpg",
+    ],
+    title: "Outdoor kitchen and Store",
+    location: "Asokoro, Abuja",
+  },
+  {
+    images: [
+      "/media/projects/dog-kennel/1.jpg",
+      "/media/projects/dog-kennel/2.jpg",
+    ],
+    title: "Dog Kennel",
+    location: "Abuja",
+  },
 ];
 const ProjectsSection = () => {
   const [showPreviewProjectModal, setShowPreviewProjectModal] = useState(false);

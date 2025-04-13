@@ -6,7 +6,9 @@ import ServiceCard from "@/components/home/ServiceCard";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import Image from "next/image";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { FaTools } from "react-icons/fa";
 import { IoBarChartOutline } from "react-icons/io5";
+import { LuBuilding2, LuFileAxis3D } from "react-icons/lu";
 import { MdOutlineDesignServices } from "react-icons/md";
 
 export default function Home() {
@@ -103,6 +105,34 @@ export default function Home() {
             track financially while maintaining the highest standards of quality
             and efficiency. Let us help you build smart and stress-free.
           </ServiceCard>
+          <ServiceCard icon={<FaTools />} title="Renovations & Remodeling">
+            At AV-Construction, we specialize in transforming existing spaces
+            into modern, functional, and aesthetically pleasing environments.
+            Whether it&rsquo;s a home, office, or commercial space, our
+            renovation and remodeling services breathe new life into every
+            corner. From structural upgrades to layout reconfigurations and
+            high-end finishes, we ensure every detail aligns with your vision,
+            budget, and lifestyle.
+          </ServiceCard>
+          <ServiceCard icon={<LuFileAxis3D />} title="3D Designs">
+            We bring ideas to life through detailed architectural designs and
+            immersive 3D renderings. Our design team works closely with you to
+            create concepts that are both beautiful and buildable. With our 3D
+            visualizations, you can explore your space before construction even
+            begins—making decisions easier and outcomes more predictable.
+          </ServiceCard>
+          <ServiceCard
+            icon={<LuBuilding2 />}
+            title="Fresh Constructions and Development"
+          >
+            AV-Construction handles projects from the ground up. Whether
+            you&rsquo;re building a residential property, commercial facility,
+            or multi-unit development, we manage every stage of construction
+            with precision and professionalism. From site preparation to the
+            final build, our experienced team ensures quality, compliance, and
+            timely delivery—turning your vision into a tangible, lasting
+            structure.
+          </ServiceCard>
         </div>
       </Container>
       <div className="bg-secondary my-10 relative py-16">
@@ -184,7 +214,7 @@ export default function Home() {
 
       <Container className="my-10">
         <div className="space-y-5">
-          <h2 className="text-3xl font-bold">Testionials</h2>
+          <h2 className="text-3xl font-bold">Testimonials</h2>
           <TestimonialsSection />
         </div>
       </Container>
