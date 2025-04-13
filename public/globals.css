@@ -20,3 +20,7 @@ body {
 .polygon {
   clip-path: polygon(21% 0, 100% 0%, 100% 99%, 0% 100%);
 }
+
+.swiper-pagination-fraction {
+  @apply bg-white/50 !w-auto inline-block py-0.5 px-2 !absolute !bottom-2 !left-[45%]  rounded-2xl transform !-translate-x-1/2 !-translate-y-1/2;
+}

@@ -5,87 +5,71 @@ import React, { useState } from "react";
 
 const projectsData = [
   {
-    image: "/media/project-1.jpg",
-    title: "3-Bedroom Apartment in Lekki Phase 1",
-    location: "Lekki, Lagos",
-    squareFeet: 1200,
-    bedroomCount: 3,
-    bathroomCount: 2,
+    images: [
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/1.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/2.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/3.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/4.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/5.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/6.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/7.jpg",
+      "/media/projects/proposed-guest-halet-and-bq-in-abuja/8.jpg",
+    ],
+    title: "Proposed guest chalet and Boys Quaters",
+    location: "Abuja",
   },
   {
-    image: "/media/project-2.jpg",
-    title: "Luxury Duplex in Banana Island",
-    location: "Ikoyi, Lagos",
-    squareFeet: "5000",
-    bedroomCount: 5,
-    bathroomCount: 6,
+    images: [
+      "/media/projects/completed-mansion-renovation/1.jpg",
+      "/media/projects/completed-mansion-renovation/2.jpg",
+      "/media/projects/completed-mansion-renovation/3.jpg",
+      "/media/projects/completed-mansion-renovation/4.jpg",
+      "/media/projects/completed-mansion-renovation/5.jpg",
+      "/media/projects/completed-mansion-renovation/6.jpg",
+      "/media/projects/completed-mansion-renovation/7.jpg",
+      "/media/projects/completed-mansion-renovation/8.jpg",
+      "/media/projects/completed-mansion-renovation/9.jpg",
+      "/media/projects/completed-mansion-renovation/10.jpg",
+      "/media/projects/completed-mansion-renovation/11.jpg",
+      "/media/projects/completed-mansion-renovation/12.jpg",
+    ],
+    title: "Masion Renovation and Decoration",
+    location: "Asokoro, Abuja",
   },
   {
-    image: "/media/project-3.jpg",
-    title: "Affordable 2-Bedroom Flat in Kubwa",
-    location: "Kubwa, Abuja",
-    squareFeet: 800,
-    bedroomCount: 2,
-    bathroomCount: 2,
-  },
-  {
-    image: "/media/project-4.jpg",
-    title: "Modern Studio Apartment in Wuse 2",
-    location: "Wuse 2, Abuja",
-    squareFeet: 500,
-    bathroomCount: 1,
-  },
-  {
-    image: "/media/project-5.jpg",
-    title: "4-Bedroom Detached House in GRA",
-    location: "Port Harcourt, Rivers",
-    squareFeet: "3500",
-    bedroomCount: 4,
-    bathroomCount: 3,
-  },
-  {
-    image: "/media/project-6.jpg",
-    title: "4-Bedroom Detached House in GRA",
-    location: "Port Harcourt, Rivers",
-    squareFeet: "3500",
-    bedroomCount: 4,
-    bathroomCount: 3,
-  },
-  {
-    image: "/media/project-7.jpg",
-    title: "4-Bedroom Detached House in GRA",
-    location: "Port Harcourt, Rivers",
-    squareFeet: "3500",
-    bedroomCount: 4,
-    bathroomCount: 3,
-  },
-  {
-    image: "/media/project-8.jpg",
-    title: "4-Bedroom Detached House in GRA",
-    location: "Port Harcourt, Rivers",
-    squareFeet: "3500",
-    bedroomCount: 4,
-    bathroomCount: 3,
+    images: [
+      "/media/projects/proposed-3bedroom-bungalow/1.png",
+      "/media/projects/proposed-3bedroom-bungalow/2.png",
+      "/media/projects/proposed-3bedroom-bungalow/3.png",
+      "/media/projects/proposed-3bedroom-bungalow/4.png",
+      "/media/projects/proposed-3bedroom-bungalow/5.png",
+      "/media/projects/proposed-3bedroom-bungalow/6.png",
+      "/media/projects/proposed-3bedroom-bungalow/7.png",
+      "/media/projects/proposed-3bedroom-bungalow/8.png",
+      "/media/projects/proposed-3bedroom-bungalow/9.png",
+      "/media/projects/proposed-3bedroom-bungalow/10.png",
+      "/media/projects/proposed-3bedroom-bungalow/11.png",
+      "/media/projects/proposed-3bedroom-bungalow/12.png",
+      "/media/projects/proposed-3bedroom-bungalow/13.png",
+    ],
+    title: "Proposed 3 bedroom Bungalow",
+    location: "Jimeta, Yola",
   },
 ];
-
 const ProjectsSection = () => {
   const [showPreviewProjectModal, setShowPreviewProjectModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
   return (
     <>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {projectsData.map((each, index) => (
           <ProjectCard
-            image={each.image}
+            images={each.images}
             key={index}
             title={each.title}
             location={each.location}
-            squareFeet={each.squareFeet}
-            bedroomCount={each.bedroomCount}
-            bathroomCount={each.bathroomCount}
             onClick={() => {
-              setSelectedImage(each.image);
+              // setSelectedImage(each.image);
               setShowPreviewProjectModal(true);
             }}
           />
