@@ -100,7 +100,7 @@ export default function ServicesPage() {
             </div>
 
             <Image
-              src="/media/interior-design.jpg"
+              src="/media/projects/completed-mansion-renovation/3.jpg"
               alt="service"
               className="object-cover flex-1 w-full"
               width={400}
