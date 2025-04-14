@@ -25,7 +25,12 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex-1 flex gap-3 items-center md:justify-end">
-              <Button variant="ghost" className="!text-white">
+              <Button
+                href="https://wa.link/h0f7jc"
+                linkProps={{ target: "_blank" }}
+                variant="ghost"
+                className="!text-white"
+              >
                 Get a Quote
               </Button>
               <Button>Call Us</Button>

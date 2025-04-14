@@ -3,7 +3,7 @@ import ProjectCard from "@/components/projects/ProjectCard";
 import ProjectPreviewModal from "@/components/projects/ProjectPreviewModal";
 import React, { useState } from "react";
 
-const projectsData = [
+export const projectsData = [
   {
     images: [
       "/media/projects/proposed-guest-halet-and-bq-in-abuja/1.jpg",
