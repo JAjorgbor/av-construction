@@ -14,7 +14,7 @@ export default function ServicesPage() {
       />
       <Container className="text-foreground">
         {" "}
-        <h3 className="font-bold text-xl text-center my-10">
+        <h3 className="font-bold text-3xl text-center my-8 capitalize">
           Explore our professional services
         </h3>
         <p className="my-5">

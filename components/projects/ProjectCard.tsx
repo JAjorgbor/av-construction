@@ -95,7 +95,7 @@ const ProjectCard = ({
           </button>
         </div>
       </div>
-      <div className="p-5 space-y-3 h-[120px]">
+      <div className="p-5 space-y-3 h-[90px]">
         <h4 className="text-primary text-xl">{title}</h4>
       </div>
       <div className="bg-foreground/15 flex text-primary items-center p-5 py-3">

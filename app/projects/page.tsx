@@ -12,7 +12,7 @@ export default function ProjectsPage() {
         links={[{ label: "Projects", href: "/projects" }]}
       />
       <Container>
-        <h3 className="font-bold text-2xl text-center text-foreground mb-5">
+        <h3 className="font-bold text-3xl text-center text-foreground mt-12 mb-16">
           Building Dreams, One Project at a Time
         </h3>
         <ProjectsSection />

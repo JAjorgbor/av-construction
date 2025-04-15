@@ -115,7 +115,7 @@ export default function AboutPage() {
 
         <div className="space-y-5 ">
           <Title className="justify-center">Meet The Team</Title>
-          <div className="grid md:grid-cols-4  gap-4">
+          <div className="grid md:grid-cols-4 gap-6">
             <div className="space-y-3 bg-white drop-shadow-xl">
               <Image
                 src="/media/ceo.jpg"
