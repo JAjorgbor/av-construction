@@ -1,7 +1,10 @@
 "use client";
+import LightBox from "@/components/elements/LightBox";
 import ProjectCard from "@/components/projects/ProjectCard";
-import ProjectPreviewModal from "@/components/projects/ProjectPreviewModal";
-import React, { useState } from "react";
+import Image from "next/image";
+import { useState } from "react";
+import { Navigation, Thumbs } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export const projectsData = [
   {
@@ -95,8 +98,9 @@ export const projectsData = [
   },
 ];
 const ProjectsSection = () => {
-  const [showPreviewProjectModal, setShowPreviewProjectModal] = useState(false);
-  const [selectedImage, setSelectedImage] = useState("");
+  const [selectedImages, setSelectedImages] = useState([""]);
+  const [showLightBox, setShowLightBox] = useState(false);
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -107,16 +111,69 @@ const ProjectsSection = () => {
             title={each.title}
             location={each.location}
             onClick={() => {
-              // setSelectedImage(each.image);
-              setShowPreviewProjectModal(true);
+              setSelectedImages(each.images);
+              setShowLightBox(true);
             }}
           />
         ))}
       </div>
-      <ProjectPreviewModal
+      {/* <>
+        <Swiper
+          style={
+            {
+              "--swiper-navigation-color": "#fff",
+              "--swiper-pagination-color": "#fff",
+            } as any
+          }
+          spaceBetween={10}
+          navigation={true}
+          thumbs={{ swiper: thumbsSwiper }}
+          modules={[Navigation, Thumbs]}
+          className="mySwiper2"
+        >
+          <SwiperSlide>
+            {projectsData[0].images.map((each, index) => (
+              <Image
+                key={index}
+                src={each}
+                alt="image"
+                height={500}
+                width={10000}
+              />
+            ))}
+          </SwiperSlide>
+        </Swiper>
+        <Swiper
+          onSwiper={setThumbsSwiper as any}
+          spaceBetween={10}
+          slidesPerView={4}
+          //   freeMode={true}
+          watchSlidesProgress={true}
+          modules={[Navigation, Thumbs]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            {projectsData[0].images.map((each, index) => (
+              <Image
+                key={index}
+                src={each}
+                alt="image"
+                height={100}
+                width={200}
+              />
+            ))}
+          </SwiperSlide>
+        </Swiper>
+      </> */}
+      {/* <ProjectPreviewModal
         isOpen={showPreviewProjectModal}
-        setIsOpen={setShowPreviewProjectModal}
+        setIsOpen={setShowLightBox}
         image={selectedImage as string}
+      /> */}
+      <LightBox
+        images={selectedImages}
+        isOpen={showLightBox}
+        setIsOpen={setShowLightBox}
       />
     </>
   );

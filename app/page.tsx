@@ -247,27 +247,16 @@ export default function Home() {
           </div>
           <div className="overflow-x-auto md:scrollbar-hide">
             <div className="flex gap-4 min-w-max py-4">
-              {projectsData?.map((each, index) => (
-                <Fragment key={index}>
-                  <div>
-                    <Image
-                      className="object-cover w-[200px] h-[300px]"
-                      src={each.images[0]}
-                      alt="project"
-                      width={200}
-                      height={500}
-                    />
-                  </div>
-                  <div>
-                    <Image
-                      className="object-cover w-[200px] h-[300px]"
-                      src={each.images[1]}
-                      alt="project"
-                      width={200}
-                      height={500}
-                    />
-                  </div>
-                </Fragment>
+              {projectsData?.[0]?.images?.map((each, index) => (
+                <div key={index}>
+                  <Image
+                    className="object-cover w-[200px] h-[300px]"
+                    src={each}
+                    alt="project"
+                    width={200}
+                    height={500}
+                  />
+                </div>
               ))}
             </div>
           </div>

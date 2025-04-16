@@ -33,7 +33,12 @@ const Footer = () => {
               >
                 Get a Quote
               </Button>
-              <Button>Call Us</Button>
+              <Button
+                href="tel:+2348060036398"
+                linkProps={{ target: "_blank" }}
+              >
+                Call Us
+              </Button>
             </div>
           </div>
         </Container>

@@ -26,7 +26,8 @@ export default function ContactPage() {
         </div>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] text-foreground gap-5  mx-auto">
           <Link
-            href="tel:2348060036398"
+            href="tel:+2348060036398"
+            target="_blank"
             className="group  hover:text-white hover:bg-primary p-5 flex gap-3 items-center shadow hover:drop-shadow-2xl traisiton-all duration-700"
           >
             <span className="text-primary group-hover:text-inherit">
@@ -64,7 +65,7 @@ export default function ContactPage() {
               <span className="block text-2xl text-primary group-hover:text-inherit font-bold">
                 Address
               </span>
-              <span>13 Onitsha Crescent Garki Area 11 Abuja.</span>
+              <span>13 Onitsha Crescent Garki Area 11 Abuja.</span>
             </div>
           </Link>
         </div>

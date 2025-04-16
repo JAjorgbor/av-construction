@@ -11,17 +11,11 @@ const ProjectCard = ({
   title,
   onClick,
   location = "Location",
-  squareFeet = 10,
-  bedroomCount = 5,
-  bathroomCount = 2,
   images,
 }: {
   images: string[];
   title: string;
   location: string;
-  squareFeet?: number | string;
-  bedroomCount?: number;
-  bathroomCount?: string | number;
   onClick: any;
 }) => {
   const prevRef = useRef<HTMLButtonElement>(null);
@@ -75,7 +69,10 @@ const ProjectCard = ({
             </SwiperSlide>
           ))}
         </Swiper>
-        <button className="p-1.5 hover:bg-secondary/30 rounded-full absolute top-2 right-2 text-white bg-primary/50 z-20">
+        <button
+          className="p-1.5 hover:bg-secondary/30 rounded-full absolute top-2 right-2 text-white bg-primary/50 z-20"
+          onClick={onClick}
+        >
           <FiMaximize2 size={15} />
         </button>
         <div className="absolute top-1/2 flex justify-between w-full  left-0 transform -translate-y-1/2  z-20 px-3">
