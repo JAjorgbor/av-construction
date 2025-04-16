@@ -19,11 +19,14 @@ export default function ContactPage() {
         links={[{ label: "Contact", href: "/contact" }]}
       />
       <Container className="text-foreground space-y-10">
-        <div>
-          <div className="h3 text-primary text-4xl font-bold space-y-2">
+        <div className="space-y-4">
+          <h2 className="h3 text-primary text-4xl font-bold">
             Send us a message
-          </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </h2>
+          <p>
+            Have a project in mind? Let&apos;s talk — we&apos;d love to hear
+            from you.
+          </p>
         </div>
         <div className=" max-w-3xl space-y-4">
           <ContactForm />

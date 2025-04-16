@@ -10,6 +10,7 @@ import Footer from "@/scaffold/Footer";
 import Header from "@/scaffold/Header";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import { ToastContainer } from "react-toastify";
 
 export const roboto = Roboto({
   weight: ["300", "400", "700"],
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${roboto.variable} antialiased`}>
+        <ToastContainer />
         <Header />
         <main>{children}</main>
         <Footer />
