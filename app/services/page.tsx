@@ -197,7 +197,7 @@ export default function ServicesPage() {
           </div>
           <div className="flex gap-4 flex-col lg:flex-row items-center">
             <Image
-              src="/media/projects/proposed-3bedroom-bungalow/2.png"
+              src="/media/projects/proposed-duplex/1.jpg"
               alt="service"
               className="object-cover flex-1 w-full h-[350px]"
               width={400}
