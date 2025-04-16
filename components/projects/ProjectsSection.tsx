@@ -93,7 +93,11 @@ export const projectsData = [
   {
     images: [
       "/media/projects/dog-kennel/1.jpg",
-      "/media/projects/dog-kennel/2.jpg",
+      "/media/projects/dog-kennel/2.png",
+      "/media/projects/dog-kennel/3.png",
+      "/media/projects/dog-kennel/4.png",
+      "/media/projects/dog-kennel/5.png",
+      "/media/projects/dog-kennel/6.png",
     ],
     title: "Dog Kennel",
     location: "Abuja",
