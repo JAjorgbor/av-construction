@@ -87,7 +87,7 @@ export const projectsData = [
       "/media/projects/completed-3bedroom-in-baraks-road/9.jpg",
       "/media/projects/completed-3bedroom-in-baraks-road/10.jpg",
     ],
-    title: "Completed 3 Bedroom",
+    title: "Completed 3 Bedroom In Baraks Road",
     location: "Asokoro, Abuja",
   },
   {
