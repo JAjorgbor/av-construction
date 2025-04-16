@@ -35,6 +35,7 @@ export const projectsData = [
       "/media/projects/completed-mansion-renovation/10.jpg",
       "/media/projects/completed-mansion-renovation/11.jpg",
       "/media/projects/completed-mansion-renovation/12.jpg",
+      "/media/projects/completed-mansion-renovation/13.jpg",
     ],
     title: "Masion Renovation and Decoration",
     location: "Asokoro, Abuja",
@@ -68,6 +69,7 @@ export const projectsData = [
       "/media/projects/outdoor-kitchen-and-store/6.jpg",
       "/media/projects/outdoor-kitchen-and-store/7.jpg",
       "/media/projects/outdoor-kitchen-and-store/8.jpg",
+      "/media/projects/outdoor-kitchen-and-store/9.jpg",
     ],
     title: "Outdoor kitchen and Store",
     location: "Asokoro, Abuja",
@@ -94,6 +96,17 @@ export const projectsData = [
       "/media/projects/dog-kennel/2.jpg",
     ],
     title: "Dog Kennel",
+    location: "Abuja",
+  },
+  {
+    images: [
+      "/media/projects/proposed-duplex/1.jpg",
+      "/media/projects/proposed-duplex/2.jpg",
+      "/media/projects/proposed-duplex/3.jpg",
+      "/media/projects/proposed-duplex/4.jpg",
+      "/media/projects/proposed-duplex/5.jpg",
+    ],
+    title: "Proposed Bedroom Duplex",
     location: "Abuja",
   },
 ];

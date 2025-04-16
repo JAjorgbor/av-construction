@@ -86,8 +86,8 @@ const LightBox: FC<LightBoxProps & BaseModalProps> = ({
                           <Image
                             src={each}
                             alt="image"
-                            height={300}
-                            width={700}
+                            height={500}
+                            width={1000}
                             className="!h-[300px] md:!h-[500px] w-[700px] object-cover"
                           />
                         </SwiperSlide>

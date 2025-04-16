@@ -31,7 +31,7 @@ export default function ServicesPage() {
             <Image
               src="/media/project-planning.jpg"
               alt="service"
-              className="object-cover flex-1 w-full"
+              className="object-cover flex-1 w-full h-[350px]"
               width={400}
               height={400}
             />
@@ -102,7 +102,7 @@ export default function ServicesPage() {
             <Image
               src="/media/projects/completed-mansion-renovation/3.jpg"
               alt="service"
-              className="object-cover flex-1 w-full"
+              className="object-cover flex-1 w-full h-[350px]"
               width={400}
               height={400}
             />
@@ -111,7 +111,7 @@ export default function ServicesPage() {
             <Image
               src="/media/budget-planning.jpg"
               alt="service"
-              className="object-cover flex-1 w-full"
+              className="object-cover flex-1 w-full h-[350px]"
               width={400}
               height={400}
             />
@@ -144,6 +144,143 @@ export default function ServicesPage() {
                 dollar is being maximized effectively.
               </p>
             </div>
+          </div>
+
+          <div className="flex gap-4 flex-col lg:flex-row items-center">
+            <div className="flex-1 space-y-5 order-2 lg:order-none">
+              <Title>Renovations & Remodeling</Title>
+              <p>
+                Transform your space with precision and personality. Our
+                approach to renovations and remodeling prioritizes
+                craftsmanship, clarity, and your complete
+                satisfaction—delivering interiors that reflect not just style,
+                but substance.
+              </p>
+              <ul className="list-disc pl-5">
+                <li>
+                  <strong className="font-bold"> Client-First Approach:</strong>
+                  We begin with your lifestyle, not just your layout—ensuring
+                  every decision reflects how you live, work, and unwind.
+                </li>
+                <li>
+                  <strong className="font-bold">
+                    {" "}
+                    Quality-Centric Materials:
+                  </strong>{" "}
+                  We handpick durable, high-performance materials that look
+                  stunning and stand the test of time.
+                </li>
+                <li>
+                  <strong className="font-bold">
+                    {" "}
+                    Smart Design Solutions:
+                  </strong>{" "}
+                  Whether it&apos;s maximizing storage or enhancing natural
+                  light, we apply intelligent, functional design that makes
+                  every inch of your space work harder for you.
+                </li>
+              </ul>
+              <p>
+                While AV Construction emphasizes aesthetic experiences, we focus
+                on intentional transformation—where every renovation is rooted
+                in functionality, comfort, and long-lasting value.
+              </p>
+            </div>
+
+            <Image
+              src="/media/projects/completed-mansion-renovation/13.jpg"
+              alt="service"
+              className="object-cover flex-1 w-full h-[350px]"
+              width={400}
+              height={400}
+            />
+          </div>
+          <div className="flex gap-4 flex-col lg:flex-row items-center">
+            <Image
+              src="/media/projects/proposed-3bedroom-bungalow/2.png"
+              alt="service"
+              className="object-cover flex-1 w-full h-[350px]"
+              width={400}
+              height={400}
+            />
+            <div className="space-y-5 flex-1">
+              <Title>3D Modelling</Title>
+              <p>
+                Visualize your vision before it&apos;s built. Our 3D modeling
+                service bridges imagination and implementation—providing
+                detailed, interactive previews that guide confident design
+                decisions and flawless execution.
+              </p>
+              <ul className="list-disc pl-5">
+                <li>
+                  <strong className="font-bold">Precision Visuals:</strong> Our
+                  models are built to scale with meticulous accuracy, giving you
+                  a true-to-life view of your project before a single nail is
+                  driven.
+                </li>
+                <li>
+                  <strong className="font-bold">Collaborative Editing:</strong>{" "}
+                  Make real-time adjustments to layouts, materials, and lighting
+                  with our team, ensuring your vision evolves exactly how you
+                  imagined it.
+                </li>
+                <li>
+                  <strong className="font-bold">Tech-Driven Efficiency:</strong>{" "}
+                  We leverage cutting-edge tools and rendering software to
+                  streamline approvals, minimize costly mistakes, and accelerate
+                  project timelines.
+                </li>
+              </ul>
+              <p>
+                While AV Construction focuses on crafting finished environments,
+                we specialize in bringing ideas to life before construction
+                begins—reducing guesswork and maximizing creative control.
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-4 flex-col lg:flex-row items-center">
+            <div className="flex-1 space-y-5 order-2 lg:order-none">
+              <Title> Fresh Construction & Development</Title>
+              <p>
+                Build from the ground up with confidence. Our construction and
+                development services blend strategic planning, modern
+                engineering, and hands-on craftsmanship to deliver structures
+                that are functional, sustainable, and future-ready.
+              </p>
+              <ul className="list-disc pl-5">
+                <li>
+                  <strong className="font-bold">End-to-End Execution:</strong>
+                  From initial site analysis to final finishes, we manage every
+                  phase of the build process—keeping you informed and in
+                  control.
+                </li>
+                <li>
+                  <strong className="font-bold"> Structural Excellence:</strong>{" "}
+                  Our builds prioritize safety and durability, using quality
+                  materials and industry-standard practices to ensure
+                  long-lasting performance.
+                </li>
+                <li>
+                  <strong className="font-bold"> Modern Development:</strong> We
+                  integrate smart technology, eco-conscious designs, and
+                  energy-efficient solutions to keep your property ahead of the
+                  curve.
+                </li>
+              </ul>
+              <p>
+                Unlike AV Construction, which focuses primarily on interior
+                transformation, we bring a holistic development approach—laying
+                strong foundations for both residential and commercial success.
+              </p>
+            </div>
+
+            <Image
+              src="/media/projects/outdoor-kitchen-and-store/10.jpg"
+              alt="service"
+              className="object-cover flex-1 w-full h-[350px]"
+              width={400}
+              height={400}
+            />
           </div>
         </div>
       </Container>

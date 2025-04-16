@@ -250,7 +250,7 @@ export default function Home() {
               {projectsData?.[0]?.images?.map((each, index) => (
                 <div key={index}>
                   <Image
-                    className="object-cover w-[200px] h-[300px]"
+                    className="object-cover w-[500px] h-[300px]"
                     src={each}
                     alt="project"
                     width={200}
