@@ -137,7 +137,9 @@ const TestimonialsSection = () => {
             <SwiperSlide key={index}>
               <div className="h-80 md:h-56">
                 <div className=" p-5 shadow-lg space-y-3 h-56 md:h-48 flex gap-3 flex-col">
-                  <p className="text-foreground flex-grow">{each.comment}</p>
+                  <p className="text-foreground flex-grow !text-start">
+                    {each.comment}
+                  </p>
                   <div className="flex gap-2 items-center">
                     <span className="rounded-full text-white bg-secondary  grid items-center p-2">
                       <FiUser size={20} />

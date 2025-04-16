@@ -106,7 +106,7 @@ export const projectsData = [
       "/media/projects/proposed-duplex/4.jpg",
       "/media/projects/proposed-duplex/5.jpg",
     ],
-    title: "Proposed Bedroom Duplex",
+    title: "Proposed 5 Bedroom Duplex",
     location: "Abuja",
   },
 ];
