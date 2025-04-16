@@ -76,7 +76,8 @@ export default function ContactPage() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://maps.app.goo.gl/1pkFbAnkQSc5of6T6"
+            target="_blank"
             className="group  hover:text-white hover:bg-primary p-5 flex gap-3 items-center shadow hover:drop-shadow-2xl traisiton-all duration-700"
           >
             <span className="text-primary group-hover:text-inherit">
