@@ -5,7 +5,11 @@ import Link from "next/link";
 import { FiMail, FiPhone } from "react-icons/fi";
 import { GrMapLocation } from "react-icons/gr";
 
-export const metadata = { title: "Contact Us" };
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with AV Construction today. We're here to discuss your building needs, provide expert advice, and help bring your construction project to life.",
+};
 
 export default function ContactPage() {
   return (

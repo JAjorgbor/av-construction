@@ -1,11 +1,10 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-import { Navigation } from "swiper/modules";
 import { FiUser } from "react-icons/fi";
+import { Navigation } from "swiper/modules";
 
 const TestimonialsSection = () => {
   const prevRef = useRef<HTMLButtonElement>(null);
@@ -135,11 +134,9 @@ const TestimonialsSection = () => {
         >
           {content.map((each, index) => (
             <SwiperSlide key={index}>
-              <div className="h-80 md:h-56">
-                <div className=" p-5 shadow-lg space-y-3 h-56 md:h-48 flex gap-3 flex-col">
-                  <p className="text-foreground flex-grow !text-start">
-                    {each.comment}
-                  </p>
+              <div className="h-80 md:h-64 !text-start w-full">
+                <div className=" p-5 shadow-lg space-y-3 h-56 md:h-52 flex gap-3 flex-col">
+                  <p className="text-foreground flex-grow">{each.comment}</p>
                   <div className="flex gap-2 items-center">
                     <span className="rounded-full text-white bg-secondary  grid items-center p-2">
                       <FiUser size={20} />

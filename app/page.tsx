@@ -171,8 +171,8 @@ export default function Home() {
                     className="object-cover w-[500px] h-[300px]"
                     src={each}
                     alt="project"
-                    width={200}
-                    height={500}
+                    width={500}
+                    height={300}
                   />
                 </div>
               ))}

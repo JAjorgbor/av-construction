@@ -3,7 +3,11 @@ import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
 import Image from "next/image";
 
-export const metadata = { title: "Services" };
+export const metadata = {
+  title: "Services",
+  description:
+    "Discover our full range of construction services at AV Construction, including general contracting, design-build, project management, renovations, and civil engineering solutions.",
+};
 
 export default function ServicesPage() {
   return (
