@@ -155,7 +155,7 @@ const MobileMenu = ({}) => {
     <>
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="text-white hover:text-primary lg:hidden"
+        className="text-white hover:text-primary md:hidden"
       >
         <button onClick={() => setIsOpen(!isOpen)}>
           {!isOpen ? <FiMenu size={25} /> : <FiX size={25} />}

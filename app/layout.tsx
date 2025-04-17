@@ -22,7 +22,10 @@ export const roboto = Roboto({
 export const metadata: Metadata = {
   title: { default: "AV Construction", template: "%s | AV Construction" },
   description:
-    "AV Construction delivers top-tier building and renovation services with a commitment to quality, safety, and innovation. Explore our expert solutions tailored to residential, commercial, and industrial projects.",
+    "AV Constructions delivers top-tier building and renovation services with a commitment to quality, safety, and innovation. Explore our expert solutions tailored to residential, commercial, and industrial projects.",
+  other: {
+    "google-site-verification": "kQET7HFHGovkX3mgT1SOg3jABZtOvg5P1dcQe4UZ-fw",
+  },
 };
 
 export default function RootLayout({

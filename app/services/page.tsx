@@ -185,9 +185,9 @@ export default function ServicesPage() {
                 </li>
               </ul>
               <p>
-                While AV Construction emphasizes aesthetic experiences, we focus
-                on intentional transformation—where every renovation is rooted
-                in functionality, comfort, and long-lasting value.
+                While AV Constructions emphasizes aesthetic experiences, we
+                focus on intentional transformation—where every renovation is
+                rooted in functionality, comfort, and long-lasting value.
               </p>
             </div>
 
@@ -236,9 +236,10 @@ export default function ServicesPage() {
                 </li>
               </ul>
               <p>
-                While AV Construction focuses on crafting finished environments,
-                we specialize in bringing ideas to life before construction
-                begins—reducing guesswork and maximizing creative control.
+                While AV Constructions focuses on crafting finished
+                environments, we specialize in bringing ideas to life before
+                construction begins—reducing guesswork and maximizing creative
+                control.
               </p>
             </div>
           </div>

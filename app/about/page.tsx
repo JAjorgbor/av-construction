@@ -10,7 +10,7 @@ import { GiTargetArrows } from "react-icons/gi";
 export const metadata = {
   title: "About",
   description:
-    "Learn more about AV Construction — a trusted construction company with years of experience in delivering high-quality projects, driven by professionalism, transparency, and a passion for building excellence.",
+    "Learn more about AV Constructions — a trusted construction company with years of experience in delivering high-quality projects, driven by professionalism, transparency, and a passion for building excellence.",
 };
 
 export default function AboutPage() {

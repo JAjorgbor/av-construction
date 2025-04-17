@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
       name: "Pst. Engr. Opeyemi J",
       comment: (
         <>
-          AV Construction is simply the best choice for construction. Full of
+          AV Constructions is simply the best choice for construction. Full of
           young and talented individuals.
         </>
       ),

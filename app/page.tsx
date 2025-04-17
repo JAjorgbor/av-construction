@@ -36,9 +36,9 @@ export default function Home() {
               We Take Your Dream Home & Make It Real
             </h1>
             <p>
-              At AV-Construction, we turn your vision into reality. From concept
-              to completion, we build with precision, passion, and purpose.
-              Trust us to craft spaces that inspire and endure.
+              At AV Constructions, we turn your vision into reality. From
+              concept to completion, we build with precision, passion, and
+              purpose. Trust us to craft spaces that inspire and endure.
             </p>
             <div className="flex gap-3">
               <Button href="/contact">Contact Us</Button>
@@ -63,8 +63,8 @@ export default function Home() {
             Making Your vision come true at the basics
           </h2>
           <p className="text-foreground">
-            Building more than homes, we create legacies. At AV-Construction, we
-            transform ideas into extraordinary spaces, blending craftsmanship
+            Building more than homes, we create legacies. At AV Constructions,
+            we transform ideas into extraordinary spaces, blending craftsmanship
             with innovation to bring your dream to life.
           </p>
           <AboutStats />
@@ -80,7 +80,7 @@ export default function Home() {
             </h3>
 
             <p className="text-foreground">
-              At AV-Construction, we believe every project is more than just
+              At AV Constructions, we believe every project is more than just
               bricks and mortar—it&apos;s a step toward creating a brighter
               future. Our mission is to craft spaces that not only stand the
               test of time but also inspire growth, foster connections, and
@@ -97,7 +97,7 @@ export default function Home() {
             icon={<AiOutlineFundProjectionScreen />}
             title="Project Planning"
           >
-            At AV-Construction, we lay the groundwork for success with
+            At AV Constructions, we lay the groundwork for success with
             meticulous project planning. From initial concepts to actionable
             strategies, we ensure every detail aligns with your vision. Our
             expertise guarantees seamless execution, delivering results that
@@ -107,19 +107,19 @@ export default function Home() {
             icon={<MdOutlineDesignServices />}
             title="Interior Design"
           >
-            Transform your space into a masterpiece with AV-Construction. Our
+            Transform your space into a masterpiece with AV Constructions. Our
             interior design services blend creativity, functionality, and
             elegance to create environments that reflect your style and elevate
             your everyday living.
           </ServiceCard>
           <ServiceCard icon={<IoBarChartOutline />} title="Budget Planning">
-            At AV-Construction, we turn dreams into reality without breaking the
-            bank. Our budget planning services ensure your project stays on
+            At AV Constructions, we turn dreams into reality without breaking
+            the bank. Our budget planning services ensure your project stays on
             track financially while maintaining the highest standards of quality
             and efficiency. Let us help you build smart and stress-free.
           </ServiceCard>
           <ServiceCard icon={<FaTools />} title="Renovations & Remodeling">
-            At AV-Construction, we specialize in transforming existing spaces
+            At AV Constructions, we specialize in transforming existing spaces
             into modern, functional, and aesthetically pleasing environments.
             Whether it&rsquo;s a home, office, or commercial space, our
             renovation and remodeling services breathe new life into every
@@ -138,7 +138,7 @@ export default function Home() {
             icon={<LuBuilding2 />}
             title="Fresh Constructions and Development"
           >
-            AV-Construction handles projects from the ground up. Whether
+            Av constructionshandles projects from the ground up. Whether
             you&rsquo;re building a residential property, commercial facility,
             or multi-unit development, we manage every stage of construction
             with precision and professionalism. From site preparation to the
@@ -160,8 +160,8 @@ export default function Home() {
               <h2 className="text-3xl font-bold">Our Latest Projects</h2>
             </div>
             <p className="flex-1">
-              Explore the craftsmanship and innovation behind
-              AV-Construction&apos;s recent achievements. From stunning
+              Explore the craftsmanship and innovation behind AV
+              Constructions&apos;s recent achievements. From stunning
               residential spaces to cutting-edge commercial builds, our latest
               projects showcase our commitment to excellence and our passion for
               bringing visions to life.
