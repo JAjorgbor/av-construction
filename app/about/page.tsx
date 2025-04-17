@@ -1,4 +1,5 @@
 import AboutStats from "@/components/about/AboutStats";
+import TopClients from "@/components/about/TopClients";
 import BreadCrumbs from "@/components/elements/Breadcrumbs";
 import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
@@ -20,7 +21,7 @@ export default function AboutPage() {
         title="About Us"
         links={[{ label: "About", href: "/about" }]}
       />
-      <Container className="space-y-10 text-foreground">
+      <Container className="space-y-16 text-foreground">
         <div className="flex flex-col items-center gap-3  text-center">
           <h3 className="text-center flex gap-3 flex-wrap justify-center items-end font-bold text-3xl text-primary">
             About{" "}
@@ -32,7 +33,7 @@ export default function AboutPage() {
           <AboutStats />
         </div>
         <div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 items-center">
             <div className="md:col-span-2 space-y-5">
               <p>
                 <span className="text-primary font-semibold">
@@ -67,7 +68,7 @@ export default function AboutPage() {
             <Image
               src="/media/about-image-1.jpg"
               alt="CAC Preview"
-              className="w-full"
+              className="w-full h-[500px] object-cover"
               width={600}
               height={600}
             />
@@ -117,8 +118,10 @@ export default function AboutPage() {
           </div>
         </div>
 
+        <TopClients />
+
         <div className="space-y-5 ">
-          <Title className="justify-center">Meet The Team</Title>
+          <Title>Meet The Team</Title>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="space-y-3 bg-white drop-shadow-xl">
               <Image
