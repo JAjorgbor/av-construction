@@ -173,7 +173,7 @@ const MobileMenu = ({}) => {
                 initial="closed"
                 animate={isOpen ? "open" : "closed"}
                 variants={menuVariants}
-                className={`fixed lg:hidden top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 min-h-max w-4/5 md:w-[400px] bg-secondary  p-6 rounded-2xl `}
+                className={`fixed lg:hidden top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 min-h-max w-4/5 md:w-[400px] bg-secondary z-50 p-6 rounded-2xl `}
               >
                 {/* Menu Items */}
                 <motion.ul className="space-y-4">
