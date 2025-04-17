@@ -138,7 +138,7 @@ export default function Home() {
             icon={<LuBuilding2 />}
             title="Fresh Constructions and Development"
           >
-            Av constructionshandles projects from the ground up. Whether
+            AV constructions handles projects from the ground up. Whether
             you&rsquo;re building a residential property, commercial facility,
             or multi-unit development, we manage every stage of construction
             with precision and professionalism. From site preparation to the

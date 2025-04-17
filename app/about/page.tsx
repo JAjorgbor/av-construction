@@ -26,7 +26,7 @@ export default function AboutPage() {
           <h3 className="text-center flex gap-3 flex-wrap justify-center items-end font-bold text-3xl text-primary">
             About{" "}
             <span className="text-5xl md:text-6xl bg-[url(/media/text-fill-image.jpg)] bg-center bg-clip-text text-transparent font-extrabold bg-cover">
-              AV Construction
+              AV Constructions
             </span>
           </h3>
           <p className="text-primary">Established since 2019</p>
