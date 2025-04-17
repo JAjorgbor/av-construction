@@ -1,5 +1,6 @@
 "use client";
 import AboutStats from "@/components/about/AboutStats";
+import TopClients from "@/components/about/TopClients";
 import Button from "@/components/elements/Button";
 import Container from "@/components/elements/Container";
 import Title from "@/components/elements/Title";
@@ -146,6 +147,9 @@ export default function Home() {
             structure.
           </ServiceCard>
         </div>
+        <Container>
+          <TopClients />
+        </Container>
       </Container>
       <div className="bg-secondary my-10 relative py-16">
         <div className="polygon bg-white h-12 w-56 transform rotate-180 absolute -top-1 left-0" />
