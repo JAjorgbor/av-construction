@@ -6,11 +6,12 @@ import "swiper/css/thumbs";
 
 import "@/public/globals.css";
 
+import Providers from "@/app/Providers";
 import Footer from "@/scaffold/Footer";
 import Header from "@/scaffold/Header";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import { ToastContainer } from "react-toastify";
+import Script from "next/script";
 
 export const roboto = Roboto({
   weight: ["300", "400", "700"],
@@ -36,10 +37,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${roboto.variable} antialiased`}>
-        <ToastContainer />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <Providers>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-KM0RG3VL3L"
+            strategy="afterInteractive"
+          />
+          <Script id="gtag-init" strategy="afterInteractive">
+            {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-KM0RG3VL3L');
+            `}
+          </Script>
+
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
