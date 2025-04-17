@@ -28,7 +28,7 @@ export default function ContactPage() {
             from you.
           </p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col md:flex-row items-center gap-6">
           <div className="space-y-4 flex-grow">
             <ContactForm />
           </div>
