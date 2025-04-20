@@ -37,7 +37,7 @@ const AboutStats = () => {
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <CountUp start={0} end={50} />
+                  <CountUp start={0} end={100} />
                   <span>+</span>
                 </motion.span>
               ) : (

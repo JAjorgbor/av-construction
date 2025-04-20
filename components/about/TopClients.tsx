@@ -4,14 +4,14 @@ import Image from "next/image";
 import React from "react";
 
 const content = [
+  { name: "Sahara Group", src: "/media/top-clients/sahara-group.jpg" },
   {
     name: "Comfort Agba Foundation",
     src: "/media/top-clients/Comfort Agba Foundation.png",
   },
   { name: "Greenville LNG", src: "/media/top-clients/Greenville_LNG.png" },
   { name: "Lenzo Homes", src: "/media/top-clients/Lenzo Homes.jpeg" },
-  { name: "Sahara Group", src: "/media/top-clients/sahara-group.jpg" },
-  { name: "Up Flat", src: "/media/top-clients/up flat.jpg" },
+  { name: "Up LTD", src: "/media/top-clients/up flat.jpg" },
 ];
 
 const TopClients = () => {

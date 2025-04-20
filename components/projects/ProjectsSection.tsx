@@ -18,7 +18,7 @@ export const projectsData = [
       "/media/projects/proposed-guest-halet-and-bq-in-abuja/7.jpg",
       "/media/projects/proposed-guest-halet-and-bq-in-abuja/8.jpg",
     ],
-    title: "Proposed guest chalet and Boys Quaters",
+    title: "guest chalet and Boys Quaters",
     location: "Abuja",
   },
   {
@@ -37,7 +37,7 @@ export const projectsData = [
       "/media/projects/completed-mansion-renovation/12.jpg",
       "/media/projects/completed-mansion-renovation/13.jpg",
     ],
-    title: "Masion Renovation and Decoration",
+    title: "Mansion Renovation and Decoration",
     location: "Asokoro, Abuja",
   },
   {
@@ -56,7 +56,7 @@ export const projectsData = [
       "/media/projects/proposed-3bedroom-bungalow/12.png",
       "/media/projects/proposed-3bedroom-bungalow/13.png",
     ],
-    title: "Proposed 3 bedroom Bungalow",
+    title: "3 bedroom Bungalow",
     location: "Jimeta, Yola",
   },
   {
@@ -87,8 +87,8 @@ export const projectsData = [
       "/media/projects/completed-3bedroom-in-baraks-road/9.jpg",
       "/media/projects/completed-3bedroom-in-baraks-road/10.jpg",
     ],
-    title: "Completed 3 Bedroom In Baraks Road",
-    location: "Asokoro, Abuja",
+    title: "3 Bedroom In Baraks Road",
+    location: "Jimeta, Yola",
   },
   {
     images: [
@@ -110,7 +110,7 @@ export const projectsData = [
       "/media/projects/proposed-duplex/4.jpg",
       "/media/projects/proposed-duplex/5.jpg",
     ],
-    title: "Proposed 5 Bedroom Duplex",
+    title: "5 Bedroom Duplex",
     location: "Abuja",
   },
 ];
