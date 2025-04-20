@@ -18,7 +18,7 @@ export const projectsData = [
       "/media/projects/proposed-guest-halet-and-bq-in-abuja/7.jpg",
       "/media/projects/proposed-guest-halet-and-bq-in-abuja/8.jpg",
     ],
-    title: "guest chalet and Boys Quaters",
+    title: "Guest chalet and Boys Quaters",
     location: "Abuja",
   },
   {
