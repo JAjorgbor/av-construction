@@ -240,35 +240,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-             <div className="space-y-3 bg-white drop-shadow-xl">
-              <Image
-                src="/media/ceo.jpg"
-                alt="ARC. ATHANASIUS MANJI ALBERT"
-                className="w-full object-cover h-[350px]"
-                width={800}
-                height={800}
-              />
-              <div className="space-y-2 flex flex-col flex-grow divide-y">
-                <div className="p-3 flex-grow">
-                  <p className="font-semibold text-lg">
-                    ARC. ATHANASIUS MANJI ALBERT
-                  </p>
-                  <p className="text-primary">Founder and M.D</p>
-                </div>
-                <p className="p-3 flex justify-center h-12">
-                  {/* <span className="font-semibold">Contact: </span> */}
-                  <Link
-                    target="_blank"
-                    href={"mailto:md@avconstructions.com"}
-                    aria-label="message md@avconstructions.com"
-                    className="text-primary hover:underline"
-                  >
-                    <FiMail size={25} />
-                  </Link>
-                </p>
-              </div>
-            </div>
-
+             
 
 
              <div className="space-y-3 bg-white drop-shadow-xl">
