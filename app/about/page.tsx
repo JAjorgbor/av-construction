@@ -34,6 +34,13 @@ export default function AboutPage() {
         </div>
         <div>
           <div className="grid md:grid-cols-3 gap-6 items-center">
+            <Image
+              src="/media/about-image-1.jpg"
+              alt="CAC Preview"
+              className="block sm:hidden w-full h-[500px] object-cover"
+              width={600}
+              height={600}
+            />
             <div className="md:col-span-2 space-y-5">
               <p>
                 <span className="text-primary font-semibold">
@@ -68,7 +75,7 @@ export default function AboutPage() {
             <Image
               src="/media/about-image-1.jpg"
               alt="CAC Preview"
-              className="w-full h-[500px] object-cover"
+              className="hidden sm:block w-full h-[500px] object-cover"
               width={600}
               height={600}
             />
