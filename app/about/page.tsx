@@ -169,7 +169,7 @@ export default function AboutPage() {
               <div className="space-y-2 flex flex-col flex-grow divide-y">
                 <div className="p-3 flex-grow">
                   <p className="font-semibold text-lg">
-                    Athanasius Manji Alvari
+                    ATHANASIUS MANJI ALVARI 
                   </p>
                   <p className="text-primary">Q.S</p>
                 </div>
@@ -196,7 +196,7 @@ export default function AboutPage() {
               />
               <div className="space-y-2 flex flex-col flex-grow divide-y">
                 <div className="p-3 flex-grow">
-                  <p className="font-semibold text-lg">Benezar K. Athanasius</p>
+                  <p className="font-semibold text-lg">BENEZAR K. ATHANASIUS </p>
                   <p className="text-primary">Human Resource Manager</p>
                 </div>
                 <p className="p-3 flex justify-center h-12">
@@ -222,7 +222,7 @@ export default function AboutPage() {
               />
               <div className="space-y-2 flex flex-col flex-grow divide-y">
                 <div className="p-3 flex-grow">
-                  <p className="font-semibold text-lg">Cloudia Beltran</p>
+                  <p className="font-semibold text-lg">CLOUDIA BELTRAN </p>
                   <p className="text-primary">
                     HoD Marketing & Social Media Management
                   </p>
@@ -254,7 +254,7 @@ export default function AboutPage() {
               <div className="space-y-2 flex flex-col flex-grow divide-y">
                 <div className="p-3 flex-grow">
                   <p className="font-semibold text-lg">
-                    ARC. EMOSEN T. MBWARA
+                    ARC. EMOSEH T. MBWARA
                   </p>
                   <p className="text-primary">Senior Architect</p>
                 </div>
